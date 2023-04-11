@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     // unocss plugin - https://github.com/unocss/unocss
     '@unocss/nuxt',
     '@nuxtjs/i18n',
+    'nuxt-swiper',
     '@nuxtjs/color-mode',
     // https://github.com/huntersofbook/huntersofbook/tree/main/packages/naive-ui-nuxt
     '@huntersofbook/naive-ui-nuxt',
@@ -31,8 +32,7 @@ export default defineNuxtConfig({
       }),
     ],
     safelist: ['i-twemoji-flag-us-outlying-islands', 'i-twemoji-flag-turkey'],
-  },
-
+  }, 
   // localization - i18n config
   i18n: {
     locales: [
