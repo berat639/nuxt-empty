@@ -1,19 +1,5 @@
-<template>
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div v-for="(slide, index) in slides" :key="index" class="swiper-slide">
-        <img :src="slide.image" :alt="slide.title" />
-        <h3>{{ slide.title }}</h3>
-      </div>
-    </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  </div>
-</template>
-
 <script>
-import Swiper from 'swiper';
+import Swiper from 'swiper'
 
 export default {
   name: 'MySwiper',
@@ -23,26 +9,26 @@ export default {
       slides: [
         {
           title: 'Slide 1',
-          image: 'https://via.placeholder.com/800x500?text=Slide+1'
+          image: 'https://via.placeholder.com/800x500?text=Slide+1',
         },
         {
           title: 'Slide 2asdsadsadsadsadsaadsadsadsadads',
-          image: 'https://via.placeholder.com/800x500?text=Slide+2'
+          image: 'https://via.placeholder.com/800x500?text=Slide+2',
         },
         {
           title: 'Slide 3',
-          image: 'https://via.placeholder.com/800x500?text=Slide+3'
+          image: 'https://via.placeholder.com/800x500?text=Slide+3',
         },
         {
           title: 'Slide 4',
-          image: 'https://via.placeholder.com/800x500?text=Slide+4'
+          image: 'https://via.placeholder.com/800x500?text=Slide+4',
         },
         {
           title: 'Slide 5',
-          image: 'https://via.placeholder.com/800x500?text=Slide+5'
-        }
-      ]
-    };
+          image: 'https://via.placeholder.com/800x500?text=Slide+5',
+        },
+      ],
+    }
   },
   mounted() {
     this.swiper = new Swiper('.swiper-container', {
@@ -52,21 +38,34 @@ export default {
       spaceBetween: 30,
       pagination: {
         el: '.swiper-pagination',
-        clickable: true
+        clickable: true,
       },
       navigation: {
         nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
-      }
-    });
+        prevEl: '.swiper-button-prev',
+      },
+    })
   },
-  beforeDestroy() {
-    if (this.swiper) {
-      this.swiper.destroy();
-    }
-  }
-};
+  beforeUnmount() {
+    if (this.swiper)
+      this.swiper.destroy()
+  },
+}
 </script>
+
+<template>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div v-for="(slide, index) in slides" :key="index" class="swiper-slide">
+        <img :src="slide.image" :alt="slide.title">
+        <h3>{{ slide.title }}</h3>
+      </div>
+    </div>
+    <div class="swiper-pagination" />
+    <div class="swiper-button-prev" />
+    <div class="swiper-button-next" />
+  </div>
+</template>
 
 <style>
 .swiper-container {

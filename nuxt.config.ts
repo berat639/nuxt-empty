@@ -2,7 +2,7 @@ import presetIcons from '@unocss/preset-icons'
 
 export default defineNuxtConfig({
   srcDir: 'src',
-  css:['vue3-dropdown-navbar/preflight.css'],
+  css: ['vue3-dropdown-navbar/preflight.css'],
   modules: [
     '@vueuse/nuxt',
     '@nuxtjs/tailwindcss',
@@ -32,7 +32,7 @@ export default defineNuxtConfig({
       }),
     ],
     safelist: ['i-twemoji-flag-us-outlying-islands', 'i-twemoji-flag-turkey'],
-  }, 
+  },
   // localization - i18n config
   i18n: {
     locales: [
