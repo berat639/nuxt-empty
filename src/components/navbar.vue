@@ -4,6 +4,7 @@ import {
     TheDropDownMenu,
     TheDropDownItem,
     TheDropDownDivideBlock,
+
 } from "vue3-dropdown-navbar";
 import { ref } from "vue";
 
@@ -20,13 +21,31 @@ const toggleDarkMode = () => {
 <template>
     <TheDropDownNavbar class="dd-bg-transparent  w-full">
         <template #logo>
-            bawareof/bao
+            <h4 class="text-xl text-white">bawareof/bao</h4>
         </template>
-        <TheDropDownItem class=" inline-block md:hidden lg:block font-semibold" link="/"><span class="text-white">Home</span></TheDropDownItem>
-        <TheDropDownMenu class="inline-block md:hidden lg:block font-semibold text-custom"  text="Dropdown 1" ref="dropdownMenu">
+        <TheDropDownMenu class="inline-block lg:block font-semibold text-custom" text="SERVICES" ref="dropdownMenu">
             <TheDropDownItem>Dropdown Item 1</TheDropDownItem>
-            <TheDropDownItem>Dropdown Item 2</TheDropDownItem> 
-        </TheDropDownMenu> 
+            <TheDropDownItem>Dropdown Item 2</TheDropDownItem>
+        </TheDropDownMenu>
+        <TheDropDownMenu class="inline-block lg:block font-semibold text-custom" text="SECTORS" ref="dropdownMenu">
+            <TheDropDownItem>Dropdown Item 1</TheDropDownItem>
+            <TheDropDownItem>Dropdown Item 2</TheDropDownItem>
+        </TheDropDownMenu>
+        <TheDropDownMenu class="inline-block lg:block font-semibold text-custom" text="KNOWLEDGE" ref="dropdownMenu">
+            <TheDropDownItem>Dropdown Item 1</TheDropDownItem>
+            <TheDropDownItem>Dropdown Item 2</TheDropDownItem>
+        </TheDropDownMenu>
+        <TheDropDownMenu class="inline-block lg:block font-semibold text-custom" text="LOCATIONS" ref="dropdownMenu">
+            <TheDropDownItem>Dropdown Item 1</TheDropDownItem>
+            <TheDropDownItem>Dropdown Item 2</TheDropDownItem>
+        </TheDropDownMenu>
+        <TheDropDownItem class=" inline-block lg:block font-semibold text-custom" link="/"><span
+                class="text-white">NEWS</span></TheDropDownItem>
+        <TheDropDownItem class=" inline-block lg:block font-semibold text-custom" link="/"><span
+                class="text-white">CAREERS</span></TheDropDownItem>
+        <TheDropDownItem class=" inline-block lg:block font-semibold text-custom" link="/"><span class="text-white">ABOUT
+                US</span></TheDropDownItem>
+
     </TheDropDownNavbar>
 </template>
 <style>
@@ -43,15 +62,23 @@ const toggleDarkMode = () => {
     .dd-nav-bg-white .dd-nav-bg-gray-50 {
         background-color: transparent !important;
     }
-    .dd-nav-bg-gray-100:hover { 
-    background-color: transparent !important;
+
+    .dd-nav-bg-gray-100:hover {
+        background-color: transparent !important;
     }
+
     .hover\:dd-nav-bg-gray-100:hover {
-    --tw-bg-opacity: 1;
-    background-color: transparent;
-}   
-.text-custom button {
-    color: white!important;
-}
-}
-</style>
+        --tw-bg-opacity: 1;
+        background-color: transparent;
+    }
+
+    .text-custom button {
+        color: white !important;
+
+    }
+
+    .text-custom {
+        margin-left: 0 !important;
+    }
+
+}</style>

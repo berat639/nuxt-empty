@@ -33,9 +33,9 @@
 
     <div class="">
       <ul class="flex justify-end text-white">
-        <li> <a href="#" class="px-2 py-2 mr-2 bg-red-700 text-white rounded inline-block font-semibold">Keep
+        <li> <a href="#" class="px-4 py-2 mr-2 bg-red-700 text-white rounded-2xl inline-block font-semibold">Keep
             This</a></li>
-        <li> <a href="#" class="px-2 py-2 bg-red-700 text-white rounded inline-block font-semibold">Contact Us</a>
+        <li> <a href="#" class="px-4 py-2 bg-red-700 text-white rounded-2xl inline-block font-semibold">Contact Us</a>
         </li>
 
       </ul>
@@ -68,7 +68,7 @@
           it our mission to provide
           unparalleled security solutions that
           protect against ever-evolving threats.</p>
-        <a href="#" class="px-2 py-2 bg-red-700 text-white rounded mt-5 inline-block font-semibold">Contact Us</a>
+        <a href="#" class="px-4 py-2 bg-red-700 text-white rounded-2xl mt-5 inline-block font-semibold">Contact Us</a>
       </div>
     </div>
   </section>
@@ -131,7 +131,7 @@
       </div>
       <div class="flex justify-center mt-10 ...">
         <a
-          class="inline-block font-semibold px-4 py-2 text-red-500 bg-transparent md:text-red-500 border border-red-500 rounded">More
+          class="inline-block font-semibold px-4 py-2 text-red-500 bg-transparent md:text-red-500 border border-red-500 rounded-2xl">More
           Contact
 
           <div class="inline-block center" style="width: 13px;">
