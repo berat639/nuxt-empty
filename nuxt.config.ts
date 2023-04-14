@@ -1,8 +1,10 @@
 import presetIcons from '@unocss/preset-icons'
 
+import { defineNuxtConfig } from 'nuxt/config'
+
 export default defineNuxtConfig({
   srcDir: 'src',
-  css: ['vue3-dropdown-navbar/preflight.css'],
+  css:['vue3-dropdown-navbar/preflight.css'],
   modules: [
     '@vueuse/nuxt',
     '@nuxtjs/tailwindcss',
@@ -11,10 +13,7 @@ export default defineNuxtConfig({
     // unocss plugin - https://github.com/unocss/unocss
     '@unocss/nuxt',
     '@nuxtjs/i18n',
-    'nuxt-swiper',
-    '@nuxtjs/color-mode',
-    // https://github.com/huntersofbook/huntersofbook/tree/main/packages/naive-ui-nuxt
-    '@huntersofbook/naive-ui-nuxt',
+    '@nuxtjs/color-mode'
   ],
   build: {
     transpile: ['@headlessui/vue'],
@@ -31,8 +30,9 @@ export default defineNuxtConfig({
         },
       }),
     ],
-    safelist: ['i-twemoji-flag-us-outlying-islands', 'i-twemoji-flag-turkey'],
+    safelist: ['i-twemoji-flag-us-outlying-islands', 'i-twemoji-flag-dan'],
   },
+
   // localization - i18n config
   i18n: {
     locales: [
@@ -40,9 +40,9 @@ export default defineNuxtConfig({
         code: 'en',
         file: 'en-US.json',
       },
-      { code: 'tr', file: 'tr-TR.json' },
+      { code: 'dk', file: 'dk-DK.json' },
     ],
-    defaultLocale: 'tr',
+    defaultLocale: 'dk',
     lazy: true,
     langDir: 'locales/',
     strategy: 'prefix_except_default',
@@ -53,9 +53,9 @@ export default defineNuxtConfig({
     },
     vueI18n: {
       legacy: false,
-      locale: 'tr',
-      fallbackLocale: 'tr',
-      availableLocales: ['en', 'tr'],
+      locale: 'dk',
+      fallbackLocale: 'dk',
+      availableLocales: ['en', 'dk'],
     },
   },
 

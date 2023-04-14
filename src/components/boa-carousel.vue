@@ -14,13 +14,15 @@ export default defineComponent({
 </script>
 
 <template>
-  <Carousel :items-to-show="3.95" :wrap-around="true" :transition="500">
-    <Slide v-for="slide in 30" :key="slide">
-      <div class="carousel__item bg-blck  flex h-full items-center justify-center  text-white ">
-        {{ slide }}
-      </div>
-    </Slide>
-  </Carousel>
+   <section class="relative bg-gray-100 xs:px-4 sm:px-8 lg:px-8 xl:px-12 2xl:px-16 py-16 lg:py-32"> 
+      <Carousel :items-to-show="3.95" :wrap-around="true" :transition="500">
+        <Slide v-for="slide in 30" :key="slide">
+          <div class="carousel__item bg-[url('https://picsum.photos/200/300?random=1')] bg-no-repeat bg-cover flex h-full items-center justify-center  text-black ">
+           asdsadsadsassdadsadsadsad sdadsadsa sadsa dsadssdasdsadsadsa asdsad sa sads dsd sd    asdsadsadsassdadsadsadsad sdadsadsa sadsa dsadssdasdsadsadsa asdsad sa sads dsd sd   asdsadsadsassdadsadsadsad sdadsadsa sadsa dsadssdasdsadsadsa asdsad sa sads dsd sd   asdsadsadsassdadsadsadsad sdadsadsa sadsa dsadssdasdsadsadsa asdsad sa sads dsd sd 
+          </div>
+        </Slide>
+      </Carousel>
+  </section>
 </template>
 
 <style scoped>
@@ -66,5 +68,6 @@ export default defineComponent({
 .carousel__item{
   width: 100%;
   height: 30vh;
+  overflow-y: scroll;
 }
 </style>

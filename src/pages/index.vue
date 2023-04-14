@@ -1,87 +1,14 @@
+
+import BaoFullHeader from '~/components/bao-full-header.vue';
+
 <template>
   <main class="w-full">
-    <!-- start header -->
-    <header class="absolute top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64">
-      <div
-        class="hidden md:flex justify-between items-center py-2 border-b text-sm py-3"
-        style="border-color: rgba(255,255,255,.25)"
-      >
-        <div class="">
-          <ul class="flex text-white">
-            <li>
-              <div class="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current text-white" viewBox="0 0 24 24">
-                  <path
-                    d="M12,2C7.589,2,4,5.589,4,9.995C3.971,16.44,11.696,21.784,12,22c0,0,8.029-5.56,8-12C20,5.589,16.411,2,12,2z M12,14 c-2.21,0-4-1.79-4-4s1.79-4,4-4s4,1.79,4,4S14.21,14,12,14z"
-                  />
-                </svg>
-
-                <span class="ml-2">1985 Kerry Way, Whittier, CA, USA</span>
-              </div>
-            </li>
-            <li class="ml-6">
-              <div class="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current text-white" viewBox="0 0 24 24">
-                  <path
-                    d="M14.594,13.994l-1.66,1.66c-0.577-0.109-1.734-0.471-2.926-1.66c-1.193-1.193-1.553-2.354-1.661-2.926l1.661-1.66 l0.701-0.701L5.295,3.293L4.594,3.994l-1,1C3.42,5.168,3.316,5.398,3.303,5.643c-0.015,0.25-0.302,6.172,4.291,10.766 C11.6,20.414,16.618,20.707,18,20.707c0.202,0,0.326-0.006,0.358-0.008c0.245-0.014,0.476-0.117,0.649-0.291l1-1l0.697-0.697 l-5.414-5.414L14.594,13.994z"
-                  />
-                </svg>
-
-                <span class="ml-2">+1 562-789-1935</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="">
-          <ul class="flex justify-end text-white">
-            <li>
-              <a href="#" class="px-4 py-2 mr-2 bg-red-700 text-white rounded-2xl inline-block font-semibold">Keep
-                This</a>
-            </li>
-            <li>
-              <a href="#" class="px-4 py-2 bg-red-700 text-white rounded-2xl inline-block font-semibold">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="flex flex-wrap items-center justify-between py-6">
-        <Navbar />
-      </div>
-    </header>
+    <!-- start header --> 
+       <BaoFullHeader/> 
     <!-- end header -->
 
     <!-- start hero -->
-    <div class="bg-gray-100">
-      <section
-        class="cover bg-blue-teal-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex
-  items-center min-h-screen"
-      >
-        <div class="h-full absolute top-0 left-0 right-0 z-0">
-          <img
-            src="https://trello.com/1/cards/6419d45c1db3bb42879b9595/attachments/641b7a85a9a9c692b8b7392a/previews/641b7a85a9a9c692b8b73979/download/334727259_543079174629539_7373861307719555361_n.jpg"
-            alt="" class="w-full h-full object-cover opacity-60"
-          >
-        </div>
-
-        <div class="lg:w-3/4 xl:w-2/4 relative z-10 h-100 lg:mt-16">
-          <div>
-            <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
-              We provide security for
-              digital Denmark
-            </h1>
-            <p class="text-blue-100 text-xl md:text-2xl leading-snug mt-4">
-              As a global cybersecurity firm, we have made
-              it our mission to provide
-              unparalleled security solutions that
-              protect against ever-evolving threats.
-            </p>
-            <a href="#" class="px-4 py-2 bg-red-700 text-white rounded-2xl mt-5 inline-block font-semibold">Contact Us</a>
-          </div>
-        </div>
-      </section>
-    </div>
+     
     <!-- end hero -->
 
     <!-- start testimonials -->
@@ -89,7 +16,7 @@
       <div
         class="flex lg:flex-row"
         style="
-  background: url('https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg');background-repeat: no-repeat; background-size: 100% 100%;"
+  background: url('https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg');background-repeat: no-repeat; background-size: 100% 60%;"
       >
         <div class="w-full">
           <div class="w-full lg:px-8 flex-row">
@@ -270,31 +197,16 @@
               </p>
             </div>
           </div>
-          <div class="custom-card rounded-xl bg-white">
-            <img src="https://picsum.photos/g/600/400?image=1083" alt="Sample photo" class="rounded-t-xl">
-            <i class="fa fa-shield text-red-700" />
-            <div class="text">
-              <h3>Intelligence</h3>
-              <p>
-                Protect your business with advanced
-                cyber intelligence solutions from BAO.
-                Our cutting-edge services provide real-
-                time threat intelligence and enable you
-                to proactively identify and mitigate
-                potential attacks, giving you a
-                competitive edge
-              </p>
-            </div>
-          </div>
+           
         </div>
       </div>
     </section>
     <!-- end blog -->
     <!-- start cta -->
 
-    <section class="relative my-4">
+    
       <BoaCarousel />
-    </section>
+    
 
     <!-- end cta -->
     <!-- start cta -->
@@ -440,215 +352,7 @@
     <!-- end cta -->
 
     <!-- start footer -->
-    <footer class="relative bg-gray-300 text-gray-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
-      <div class="flex flex-col md:flex-row">
-        <div class="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-          <h3 class="font-bold text-2xl">
-            bawareof/bao
-          </h3>
-          <p class="text-gray-600">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
-          </p>
-
-          <form class="flex items-center mt-6">
-            <div class="w-full">
-              <label class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2" for="grid-last-name">
-                Subscribe for our Newsletter
-              </label>
-              <div class="relative">
-                <input
-                  class="appearance-none block w-full bg-gray-200 text-gray-600 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                  type="email" placeholder="Enter Your Email Address"
-                >
-
-                <button
-                  type="submit"
-                  class="bg-red-700 hover:bg-red-400 text-white px-4 py-2 text-sm font-bold rounded absolute top-0 right-0 my-2 mr-2"
-                >
-                  Subscribe
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <div class="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
-          <h5 class="uppercase tracking-wider font-semibold text-gray-500">
-            BAO
-          </h5>
-          <ul class="mt-4">
-            <li class="mt-2">
-              <a href="#" title="" class="opacity-75 hover:opacity-100">Locations</a>
-            </li>
-            <li class="mt-2">
-              <a href="#" title="" class="opacity-75 hover:opacity-100">Services</a>
-            </li>
-            <li class="mt-2">
-              <a href="#" title="" class="opacity-75 hover:opacity-100">Sectors</a>
-            </li>
-            <li class="mt-2">
-              <a href="#" title="" class="opacity-75 hover:opacity-100">About Us</a>
-            </li>
-          </ul>
-        </div>
-        <div class="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
-          <h5 class="uppercase tracking-wider font-semibold text-gray-500">
-            Locations
-          </h5>
-          <ul class="mt-4">
-            <li class="mt-2">
-              <a href="#" title="" class="opacity-75 hover:opacity-100">Toronto</a>
-            </li>
-            <li class="mt-2">
-              <a href="#" title="" class="opacity-75 hover:opacity-100">Ottawa</a>
-            </li>
-            <li class="mt-2">
-              <a href="#" title="" class="opacity-75 hover:opacity-100">Calagry</a>
-            </li>
-            <li class="mt-2">
-              <a href="#" title="" class="opacity-75 hover:opacity-100">Edmonton</a>
-            </li>
-          </ul>
-          <!-- <ul class="mt-4">
-        <li>
-          <a href="#" title="" class="block flex items-center opacity-75 hover:opacity-100">
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                class="fill-current">
-                <path
-                  d="M12,2C7.589,2,4,5.589,4,9.995C3.971,16.44,11.696,21.784,12,22c0,0,8.029-5.56,8-12C20,5.589,16.411,2,12,2z M12,14 c-2.21,0-4-1.79-4-4s1.79-4,4-4s4,1.79,4,4S14.21,14,12,14z" />
-              </svg>
-            </span>
-            <span class="ml-3">
-              1985 Kerry Way, Whittier, CA, USA
-            </span>
-          </a>
-        </li>
-        <li class="mt-4">
-          <a href="#" title="" class="block flex items-center opacity-75 hover:opacity-100">
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                class="fill-current">
-                <path
-                  d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10c5.514,0,10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z" />
-                <path d="M13 7L11 7 11 13 17 13 17 11 13 11z" /></svg>
-            </span>
-            <span class="ml-3">
-              Mon - Fri: 9:00 - 19:00<br>
-              Closed on Weekends
-            </span>
-          </a>
-        </li>
-        <li class="mt-4">
-          <a href="#" title="" class="block flex items-center opacity-75 hover:opacity-100">
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                class="fill-current">
-                <path
-                  d="M14.594,13.994l-1.66,1.66c-0.577-0.109-1.734-0.471-2.926-1.66c-1.193-1.193-1.553-2.354-1.661-2.926l1.661-1.66 l0.701-0.701L5.295,3.293L4.594,3.994l-1,1C3.42,5.168,3.316,5.398,3.303,5.643c-0.015,0.25-0.302,6.172,4.291,10.766 C11.6,20.414,16.618,20.707,18,20.707c0.202,0,0.326-0.006,0.358-0.008c0.245-0.014,0.476-0.117,0.649-0.291l1-1l0.697-0.697 l-5.414-5.414L14.594,13.994z" />
-              </svg>
-            </span>
-            <span class="ml-3">
-              +1 562-789-1935
-            </span>
-          </a>
-        </li>
-        <li class="mt-4">
-          <a href="#" title="" class="block flex items-center opacity-75 hover:opacity-100">
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                class="fill-current">
-                <path
-                  d="M20,4H4C2.896,4,2,4.896,2,6v12c0,1.104,0.896,2,2,2h16c1.104,0,2-0.896,2-2V6C22,4.896,21.104,4,20,4z M20,8.7l-8,5.334 L4,8.7V6.297l8,5.333l8-5.333V8.7z" />
-              </svg>
-            </span>
-            <span class="ml-3">
-              eg@example.com
-            </span>
-          </a>
-        </li>
-      </ul> -->
-        </div>
-
-        <div class="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
-          <ul class="mt-4">
-            <li>
-              <a href="#" title="" class="block flex items-center opacity-75 hover:opacity-100">
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M12,2C7.589,2,4,5.589,4,9.995C3.971,16.44,11.696,21.784,12,22c0,0,8.029-5.56,8-12C20,5.589,16.411,2,12,2z M12,14 c-2.21,0-4-1.79-4-4s1.79-4,4-4s4,1.79,4,4S14.21,14,12,14z"
-                    />
-                  </svg>
-                </span>
-                <span class="ml-3">
-                  1985 Kerry Way, Whittier, CA, USA
-                </span>
-              </a>
-            </li>
-            <li class="mt-4">
-              <a href="#" title="" class="block flex items-center opacity-75 hover:opacity-100">
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10c5.514,0,10-4.486,10-10S17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z"
-                    />
-                    <path d="M13 7L11 7 11 13 17 13 17 11 13 11z" /></svg>
-                </span>
-                <span class="ml-3">
-                  Mon - Fri: 9:00 - 19:00<br>
-                  Closed on Weekends
-                </span>
-              </a>
-            </li>
-            <li class="mt-4">
-              <a href="#" title="" class="block flex items-center opacity-75 hover:opacity-100">
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M14.594,13.994l-1.66,1.66c-0.577-0.109-1.734-0.471-2.926-1.66c-1.193-1.193-1.553-2.354-1.661-2.926l1.661-1.66 l0.701-0.701L5.295,3.293L4.594,3.994l-1,1C3.42,5.168,3.316,5.398,3.303,5.643c-0.015,0.25-0.302,6.172,4.291,10.766 C11.6,20.414,16.618,20.707,18,20.707c0.202,0,0.326-0.006,0.358-0.008c0.245-0.014,0.476-0.117,0.649-0.291l1-1l0.697-0.697 l-5.414-5.414L14.594,13.994z"
-                    />
-                  </svg>
-                </span>
-                <span class="ml-3">
-                  +1 562-789-1935
-                </span>
-              </a>
-            </li>
-            <li class="mt-4">
-              <a href="#" title="" class="block flex items-center opacity-75 hover:opacity-100">
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M20,4H4C2.896,4,2,4.896,2,6v12c0,1.104,0.896,2,2,2h16c1.104,0,2-0.896,2-2V6C22,4.896,21.104,4,20,4z M20,8.7l-8,5.334 L4,8.7V6.297l8,5.333l8-5.333V8.7z"
-                    />
-                  </svg>
-                </span>
-                <span class="ml-3">
-                  eg@example.com
-                </span>
-              </a>
-            </li>
-          </ul>
-
-          <p class="text-sm text-gray-400 mt-12">
-            © 2023 . <br class="hidden lg:block">All Rights Reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
+    <BaoFooter/>
     <!-- end footer -->
   </main>
 </template>

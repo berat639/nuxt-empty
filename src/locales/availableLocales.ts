@@ -13,8 +13,8 @@ export const availableLocales: ILocales = {
     flag: 'i-twemoji-flag-us-outlying-islands',
   },
   tr: {
-    name: 'Turkce',
-    iso: 'tr',
-    flag: 'i-twemoji-flag-turkey',
+    name: 'Dansk',
+    iso: 'dk',
+    flag: 'i-twemoji-flag-dan',
   },
 }
