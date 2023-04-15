@@ -2,9 +2,11 @@
   <footer class="relative bg-gray-300 text-gray-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
     <div class="flex flex-col md:flex-row">
       <div class="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-        <h3 class="font-bold text-2xl">
-          bawareof/bao
-        </h3>
+        <NuxtLink to="/">
+          <h3 class="text-2xl font-bold">
+            bawareof / <span class="text-red-700">bao</span>
+          </h3>
+        </NuxtLink>
         <p class="text-gray-600">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
         </p>

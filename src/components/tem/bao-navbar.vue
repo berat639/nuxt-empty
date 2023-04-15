@@ -16,9 +16,11 @@ const dropdownMenu = ref<InstanceType<typeof TheDropDownMenu>>()
 <template>
   <TheDropDownNavbar class="dd-bg-transparent  w-full">
     <template #logo>
-      <h4 class="text-xl text-white">
-        bawareof/bao
-      </h4>
+      <NuxtLink to="/">
+        <h4 class="text-3xl font-bold text-white">
+          bawareof / <span class="text-red-700">bao</span>
+        </h4>
+      </NuxtLink>
     </template>
     <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom" text="SERVICES">
       <TheDropDownItem link="/services">
