@@ -14,14 +14,22 @@ export default defineComponent({
 </script>
 
 <template>
-  <section class="relative bg-gray-100 xs:px-4 sm:px-8 lg:px-8 xl:px-12 2xl:px-16 py-16 lg:py-32">
-    <Carousel :items-to-show="3.95" :wrap-around="true" :transition="500">
-      <Slide v-for="slide in 30" :key="slide">
-        <div class="carousel__item bg-[url('https://picsum.photos/200/300?random=1')] bg-no-repeat bg-cover flex h-full items-center justify-center  text-black ">
-          asdsadsadsassdadsadsadsad sdadsadsa sadsa dsadssdasdsadsadsa asdsad sa sads dsd sd    asdsadsadsassdadsadsadsad sdadsadsa sadsa dsadssdasdsadsadsa asdsad sa sads dsd sd   asdsadsadsassdadsadsadsad sdadsadsa sadsa dsadssdasdsadsadsa asdsad sa sads dsd sd   asdsadsadsassdadsadsadsad sdadsadsa sadsa dsadssdasdsadsadsa asdsad sa sads dsd sd
+   <section class="relative bg-gray-100 xs:px-4 sm:px-8 lg:px-8 xl:px-12 2xl:px-16 py-16 lg:py-32"> 
+      <Carousel :items-to-show="3.95" :wrap-around="true" :transition="500">
+        <Slide v-for="slide in 30" :key="slide">
+          <div class="flex h-screen justify-center items-center flex-col">
+    <div
+        class="w-full bg-[url('https://placekitten.com/1400')] bg-cover bg-center">
+        
+        <div class="w-full h-full flex backdrop-brightness-50 ">
+          
+                <h4 class="text-white w-1/2 text-left ml-3">title</h4>
         </div>
-      </Slide>
-    </Carousel>
+    </div>
+</div>
+           
+        </Slide>
+      </Carousel>
   </section>
 </template>
 
@@ -68,6 +76,7 @@ export default defineComponent({
 .carousel__item{
   width: 100%;
   height: 30vh;
+  height: min-content;
   overflow-y: scroll;
 }
 </style>
