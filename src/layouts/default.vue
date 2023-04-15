@@ -1,5 +1,8 @@
 <template>
-  <div>
+  <main class="w-full">
+    <BaoHeader />
     <slot />
-  </div>
+    <BaoFooter />
+  </main>
+  <div />
 </template>

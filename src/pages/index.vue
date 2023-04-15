@@ -1,16 +1,5 @@
-
-import BaoFullHeader from '~/components/bao-full-header.vue';
-
 <template>
-  <main class="w-full">
-    <!-- start header --> 
-       <BaoFullHeader/> 
-    <!-- end header -->
-
-    <!-- start hero -->
-     
-    <!-- end hero -->
-
+  <div>
     <!-- start testimonials -->
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-8 xl:px-40 2xl:px-64 py-16 lg:py-32">
       <div
@@ -197,16 +186,13 @@ import BaoFullHeader from '~/components/bao-full-header.vue';
               </p>
             </div>
           </div>
-           
         </div>
       </div>
     </section>
     <!-- end blog -->
     <!-- start cta -->
 
-    
-      <BoaCarousel />
-    
+    <BoaCarousel />
 
     <!-- end cta -->
     <!-- start cta -->
@@ -350,11 +336,7 @@ import BaoFullHeader from '~/components/bao-full-header.vue';
       </div>
     </section>
     <!-- end cta -->
-
-    <!-- start footer -->
-    <BaoFooter/>
-    <!-- end footer -->
-  </main>
+  </div>
 </template>
 
 <style>

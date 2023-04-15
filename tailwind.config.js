@@ -1,7 +1,5 @@
 /** @type {import('tailwindcss/types').Config} */
 
-const defaultTheme = require('tailwindcss/defaultTheme')
-
 module.exports = {
 
   content: [
@@ -29,9 +27,6 @@ module.exports = {
     },
     extend: {
       screens: {
-        '2xl': '1600px',
-        // => @media (min-width: 475px) { ... }
-
         'xs': '475px',
         // => @media (min-width: 475px) { ... }
 

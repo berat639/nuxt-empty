@@ -4,7 +4,7 @@ import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
   srcDir: 'src',
-  css:['vue3-dropdown-navbar/preflight.css'],
+  css: ['vue3-dropdown-navbar/preflight.css'],
   modules: [
     '@vueuse/nuxt',
     '@nuxtjs/tailwindcss',
@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     // unocss plugin - https://github.com/unocss/unocss
     '@unocss/nuxt',
     '@nuxtjs/i18n',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
   ],
   build: {
     transpile: ['@headlessui/vue'],
