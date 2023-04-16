@@ -18,6 +18,12 @@ export default defineNuxtConfig({
   build: {
     transpile: ['@headlessui/vue'],
   },
+  plugins: [
+    {
+      src: '~/plugins/vue-responsive-video-background-player',
+      ssr: false 
+    }
+  ],
   unocss: {
     uno: false,
     preflight: false,

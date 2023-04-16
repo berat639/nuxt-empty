@@ -196,7 +196,6 @@
 
     <!-- end cta -->
     <!-- start cta -->
-
     <section class="relative  px-4 sm:px-8 lg:px-8 xl:px-16 2xl:px-16 py-12 bg-red-700">
       <div class="flex flex-col md:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8 items-center justify-center my-auto">
@@ -265,7 +264,6 @@
     <!-- end cta -->
 
     <!-- start cta -->
-
     <section class="relative  px-4 sm:px-8 lg:px-8 xl:px-16 2xl:px-16 py-12 bg-blck">
       <div class="flex flex-col md:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8 items-center justify-center my-auto">
@@ -346,16 +344,13 @@
   grid-gap: 20px;
   align-items: stretch;
 }
-
 .custom-grid > .custom-card {
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
-
 .custom-grid > .custom-card img {
   max-width: 100%;
 }
-
 .custom-grid > .custom-card .icondiv {
   font-size: 48px;
   line-height: 70px;
@@ -367,7 +362,6 @@
   text-align: center;
   margin-top: -36px;
 }
-
 .custom-grid .text {
   padding: 16px 20px 30px;
 }

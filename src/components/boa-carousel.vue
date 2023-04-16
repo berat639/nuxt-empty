@@ -1,39 +1,87 @@
-<script>
-import { defineComponent } from 'vue'
+<script setup lang="ts"> 
 import { Carousel, Slide } from 'vue3-carousel'
 
-import 'vue3-carousel/dist/carousel.css'
+import 'vue3-carousel/dist/carousel.css' 
+import { ref, onMounted, onUnmounted } from 'vue'
 
-export default defineComponent({
-  name: 'Autoplay',
-  components: {
-    Carousel,
-    Slide,
-  },
+const isMobile = ref(false)
+
+const handleResize = () => {
+  isMobile.value = window.innerWidth <= 768
+}
+
+onMounted(() => {
+  handleResize()
+  window.addEventListener('resize', handleResize)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', handleResize)
 })
 </script>
 
 <template>
-   <section class="relative bg-gray-100 xs:px-4 sm:px-8 lg:px-8 xl:px-12 2xl:px-16 py-16 lg:py-32"> 
-      <Carousel :items-to-show="3.95" :wrap-around="true" :transition="500">
-        <Slide v-for="slide in 30" :key="slide">
-          <div class="flex h-screen justify-center items-center flex-col">
-    <div
-        class="w-full bg-[url('https://placekitten.com/1400')] bg-cover bg-center">
-        
-        <div class="w-full h-full flex backdrop-brightness-50 ">
-          
-                <h4 class="text-white w-1/2 text-left ml-3">title</h4>
-        </div>
-    </div>
-</div>
-           
+ <section class="relative bg-gray-100 xs:px-4 sm:px-8 lg:px-8 xl:px-12 2xl:px-16 py-16 lg:py-32">   
+      <Carousel :items-to-show="isMobile?1.50:2" :wrap-around="true" :transition="500">
+        <Slide  :key="2">
+         <div class="min-h-116 bg-orange-600 max-w-xl w-full rounded-xl  shadow-lg text-gray-100 bg-cover bg-center transform duration-500 hover:-translate-y-1 cursor-pointer" style="background-image: url(https://images.unsplash.com/photo-1614527333177-d27e9e29ff98?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=950&amp;q=80);">
+                <div class="bg-black bg-opacity-60 p-10 rounded-xl h-full">
+                    <h1 class="mt-5 text-3xl text-gray-100 leading-snug  min-h-33">One small step for man one giant leap for mankind
+                    </h1>
+                    <div class="mt-20">
+                        <span class="text-xl">2 - </span>
+                        <span class="font-bold text-xl">Neil Armstrong</span>
+                    </div>
+                    <div class="mt-16 flex justify-between ">
+                        <span class="p-3 pl-0 font-bold">Travel</span>
+                        <span class="p-3  border-2 border-gray-200 rounded-md text-base hover:bg-gray-200 hover:border-gray-200 cursor-pointer hover:text-black ">Paid
+              Membership</span>
+                    </div>
+                </div>
+              </div>
+        </Slide>
+        <Slide  :key="2">
+         <div class="min-h-116 bg-orange-600 max-w-xl w-full rounded-xl shadow-lg text-gray-100 bg-cover bg-center transform duration-500 hover:-translate-y-1 cursor-pointer" style="background-image: url(https://images.unsplash.com/photo-1614527333177-d27e9e29ff98?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=950&amp;q=80);">
+                <div class="bg-black bg-opacity-60 p-10 rounded-xl h-full">
+                    <h1 class="mt-5 text-3xl text-gray-100 leading-snug  min-h-33">One small step for man one giant leap for mankind
+                    </h1>
+                    <div class="mt-20">
+                        <span class="text-xl">2 - </span>
+                        <span class="font-bold text-xl">Neil Armstrong</span>
+                    </div>
+                    <div class="mt-16 flex justify-between ">
+                        <span class="p-3 pl-0 font-bold">Travel</span>
+                        <span class="p-3  border-2 border-gray-200 rounded-md text-base hover:bg-gray-200 hover:border-gray-200 cursor-pointer hover:text-black ">Paid
+              Membership</span>
+                    </div>
+                </div>
+              </div>
+        </Slide>
+        <Slide  :key="3">
+         <div class="min-h-116 bg-orange-600 max-w-xl w-full rounded-xl shadow-3xl text-gray-100 bg-cover bg-center transform duration-500 hover:-translate-y-1 cursor-pointer" style="background-image: url(https://images.unsplash.com/photo-1614527333177-d27e9e29ff98?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=950&amp;q=80);">
+                <div class="bg-black bg-opacity-60 p-10 rounded-xl h-full shadow-3xl">
+                    <h1 class="mt-5 text-3xl text-gray-100 leading-snug  min-h-33">One small step for man one giant leap for mankind
+                    </h1>
+                    <div class="mt-20">
+                        <span class="text-xl">3 - </span>
+                        <span class="font-bold text-xl">Neil Armstrong</span>
+                    </div>
+                    <div class="mt-16 flex justify-between ">
+                        <span class="p-3 pl-0 font-bold">Travel</span>
+                        <span class="p-3  border-2 border-gray-200 rounded-md text-base hover:bg-gray-200 hover:border-gray-200 cursor-pointer hover:text-black ">Paid
+              Membership</span>
+                    </div>
+                </div>
+              </div>
         </Slide>
       </Carousel>
+    
   </section>
 </template>
 
+
 <style scoped>
+
 .carousel__slide {
   padding: 10px;
 }
@@ -71,6 +119,9 @@ export default defineComponent({
 
 .carousel__slide--active {
   opacity: 1;
+  border-radius: 0.75rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   transform: rotateY(0) scale(1.1);
 }
 .carousel__item{
@@ -78,5 +129,6 @@ export default defineComponent({
   height: 30vh;
   height: min-content;
   overflow-y: scroll;
+  
 }
 </style>
