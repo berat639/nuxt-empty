@@ -3,6 +3,6 @@
     <BaoHeader />
     <slot />
     <BaoFooter />
+    <TemBaoModalForm />
   </main>
-  <div />
 </template>

@@ -1,5 +1,14 @@
 {
   "hello": "Hej",
   "follow": "Takip Et",
-  "modal": "Ekran"
+  "modal": "Ekran",
+  "Intelligence":"Efterretning",
+  "Investigation":"Undersøgelse",
+  "OSINT":"OSINT",
+  "Counseling":"Rådgivning",
+  "CounselingParagraph1":"Hos BAO forstår vi, at det er afgørende for din succes at beskytte din virksomhed mod online trusler. Derfor tilbyder vi højt specialiseret rådgivning og vejledning for at hjælpe dig med at mindske risici og beskytte dine data og systemer.",
+  "CounselingParagraph2":"Vores team af erfarne cybersikkerhedseksperter er udstyret med viden og færdigheder til at løse en lang række sikkerhedsudfordringer, lige fra databrud og malwareangreb til netværkssårbarheder og overensstemmelseskrav. Vi har en omfattende tilgang til cybersikkerhed og arbejder tæt sammen med vores kunder for at identificere potentielle risici og udvikle skræddersyede løsninger, der opfylder deres specifikke behov og budget.",
+  "CounselingParagraph3":"En af de vigtigste fordele ved at arbejde med vores virksomhed er vores dybe ekspertise inden for de nyeste sikkerhedsteknologier og -trends. Vi holder os ajour med de nyeste trusler og bedste praksis i branchen, og vi udnytter denne viden til at give vores kunder banebrydende råd og vejledning. Vi bruger også de nyeste værktøjer og teknikker til at identificere og afbøde trusler, f.eks. avanceret trusselsdetektionssoftware, penetrationstest og sikkerhedsrevisioner.",
+  "CounselingParagraph4":"Hos BAO er vi stolte af vores engagement i at yde personlig og opmærksom service til hver enkelt af vores kunder. Vi forstår, at hver virksomhed er unik, og vi arbejder tæt sammen med vores kunder for at udvikle skræddersyede løsninger, der opfylder deres specifikke behov og mål. Uanset om du er en lille virksomhedsejer, der ønsker at forbedre din sikkerhedstilstand, eller en stor virksomhed, der har brug for omfattende sikkerhedstjenester, er vi her for at hjælpe.",
+  "CounselingParagraph5":"Hvis du leder efter en pålidelig partner, der kan hjælpe dig med at navigere i den komplekse verden af cybersikkerhed, skal du ikke lede længere end til vores virksomhed. Kontakt os i dag for at få mere at vide om vores tjenester og om, hvordan vi kan hjælpe dig med at beskytte din virksomhed mod online trusler."
 }

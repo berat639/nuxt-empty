@@ -1,5 +1,4 @@
 import presetIcons from '@unocss/preset-icons'
-
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
@@ -15,13 +14,20 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/color-mode',
   ],
+  pinia: {
+    autoImports: [
+      // automatically imports `defineStore`
+      'defineStore', // import { defineStore } from 'pinia'
+      ['defineStore', 'definePiniaStore'], // import { defineStore as definePiniaStore } from 'pinia'
+    ],
+  },
   build: {
     transpile: ['@headlessui/vue'],
   },
   plugins: [
     {
       src: '~/plugins/vue-responsive-video-background-player',
-      ssr: false 
+      ssr: false
     }
   ],
   unocss: {
@@ -36,7 +42,7 @@ export default defineNuxtConfig({
         },
       }),
     ],
-    safelist: ['i-twemoji-flag-us-outlying-islands', 'i-twemoji-flag-dan'],
+    safelist: ['i-twemoji-flag-us-outlying-islands', 'i-twemoji-flag-turkey'],
   },
 
   // localization - i18n config
@@ -86,4 +92,6 @@ export default defineNuxtConfig({
   vite: {
     logLevel: 'info',
   },
+  
+  
 })

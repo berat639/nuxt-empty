@@ -41,6 +41,57 @@
                 </div>
               </div>
             </div>
+            
+
+            <div class="md:w-1/2 xl:w-1/2 mr-6">
+              <div class="md:flex rounded overflow-hidden shadow-lg w-full bg-gray-300">
+                <div class="md:flex-shrink-0">
+                  <img
+                    class="rounded-lg md:w-56"
+                    src="https://studyindenmark.dk/why-denmark/quality-of-life-1/about-denmark/image_large"
+                    alt="Woman paying for a purchase"
+                  >
+                </div>
+                <div class="mt-4 md:mt-0 md:ml-6">
+                  <a href="#" class="block mt-1 text-lg text-gray-700 hover:underline font-bold">Denmark</a>
+
+                  <p class="mt-2 text-gray-600">
+                    Denmark – Copenhagen.
+                  </p>
+                  <div class="pt-4 pb-2">
+                    <p class="mt-2 text-gray-600">
+                      05076652367
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:flex mt-12 md:-mx-4">
+            <div class="md:w-1/2 xl:w-1/2 mr-6">
+              <div class="md:flex rounded overflow-hidden shadow-lg w-full bg-gray-300">
+                <div class="md:flex-shrink-0">
+                  <img
+                    class="rounded-lg md:w-56"
+                    src="https://studyindenmark.dk/why-denmark/quality-of-life-1/about-denmark/image_large"
+                    alt="Woman paying for a purchase"
+                  >
+                </div>
+                <div class="mt-4 md:mt-0 md:ml-6">
+                  <a href="#" class="block mt-1 text-lg text-gray-700 hover:underline font-bold">Denmark</a>
+
+                  <p class="mt-2 text-gray-600">
+                    Denmark – Copenhagen.
+                  </p>
+                  <div class="pt-4 pb-2">
+                    <p class="mt-2 text-gray-600">
+                      05076652367
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
 
             <div class="md:w-1/2 xl:w-1/2 mr-6">
               <div class="md:flex rounded overflow-hidden shadow-lg w-full bg-gray-300">

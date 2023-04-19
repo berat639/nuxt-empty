@@ -7,7 +7,14 @@ const { t } = useLang()
 
         <div class="flex flex-col md:flex-row lg:-mx-8">
             <div class="w-full lg:w-1/2 lg:px-8">
-                <div class="bg-gray-400 w-full h-72 rounded-lg"></div>
+                <div class="bg-[url('/counseling-card.jpeg')] bg-cover bg-center w-full h-72 rounded-lg">
+                    
+        <img
+          src=""
+          alt="" class="w-full opacity-60"
+        > 
+    
+                </div>
 
                 <p class="italic text-sm mt-2 text-right">Video description or small word</p>
             </div>
@@ -18,11 +25,8 @@ const { t } = useLang()
                         <div class="w-4 h-4 mt-2 bg-red-600 rounded-full"></div>
                     </div>
                     <div class="ml-8">
-                        <h4 class="text-xl font-bold">List</h4>
-                        <p class="mt-2 leading-relaxed">Our comprehensive services allow you to receive all needed dental
-                            care
-                            right here in our state-of-art
-                            office – from dental cleanings and fillings to dental implants and extractions.</p>
+                        
+                        <p class=" leading-relaxed">    {{ t("CounselingParagraph1") }} </p>
                     </div>
                 </div>
 
@@ -31,12 +35,7 @@ const { t } = useLang()
                         <div class="w-4 h-4 mt-2 bg-red-600 rounded-full"></div>
                     </div>
                     <div class="ml-8">
-                        <h4 class="text-xl font-bold">List</h4>
-                        <p class="mt-2 leading-relaxed">Your treatment plan will perfectly match your needs, lifestyle, and
-                            goals.
-                            Even if it’s been years
-                            since you last visited the dentist, we can help. Our comfortable office, compassionate team, and
-                            minimally-invasive treatments will help you feel completely at ease.</p>
+                        <p class=" leading-relaxed">    {{ t("CounselingParagraph2") }} </p>
                     </div>
                 </div>
                 <!-- Tekrarlanacak yer -->
@@ -45,7 +44,27 @@ const { t } = useLang()
                         <div class="w-4 h-4 mt-2 bg-red-600 rounded-full"></div>
                     </div>
                     <div class="ml-8">
-                        <h4 class="text-xl font-bold">List </h4>
+                        <p class=" leading-relaxed">    {{ t("CounselingParagraph3") }} </p>
+                    </div>
+                </div>
+                <!-- Tekrarlanacak yer -->
+                  <!-- Tekrarlanacak yer -->
+                  <div class="flex mt-4">
+                    <div>
+                        <div class="w-4 h-4 mt-2 bg-red-600 rounded-full"></div>
+                    </div>
+                    <div class="ml-8">
+                        <p class=" leading-relaxed">    {{ t("CounselingParagraph4") }} </p>
+                    </div>
+                </div>
+                <!-- Tekrarlanacak yer -->
+                  <!-- Tekrarlanacak yer -->
+                  <div class="flex mt-4">
+                    <div>
+                        <div class="w-4 h-4 mt-2 bg-red-600 rounded-full"></div>
+                    </div>
+                    <div class="ml-8">
+                        <p class=" leading-relaxed">    {{ t("CounselingParagraph5") }} </p>
                     </div>
                 </div>
                 <!-- Tekrarlanacak yer -->

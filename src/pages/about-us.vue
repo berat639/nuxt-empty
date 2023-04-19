@@ -73,24 +73,7 @@ const { t } = useLang()
             <label class="form-check-label inline-block text-gray-800" for="exampleCheck87">Send me a copy of this
               message</label>
           </div>
-          <button type="submit" class="
-          w-full
-          px-6
-          py-2.5
-          bg-blue-600
-          text-white
-          font-medium
-          text-xs
-          leading-tight
-          uppercase
-          rounded
-          shadow-md
-          hover:bg-blue-700 hover:shadow-lg
-          focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-          active:bg-blue-800 active:shadow-lg
-          transition
-          duration-150
-          ease-in-out">Send</button>
+          <button type="submit" class="bg-red-700 hover:bg-red-400 text-white px-4 py-2 text-sm font-bold rounded absolute top-0 right-0 my-2 mr-2"> Subscribe </button>
         </form>
       </div>
       <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">

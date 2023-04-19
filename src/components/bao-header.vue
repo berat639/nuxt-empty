@@ -1,7 +1,11 @@
 <script setup lang="ts">
 const route = useRoute()
 const isHomePage = computed(() => route.path === '/')
-
+const modalStore= useModalStore()
+const showModal= (e:any)=>{
+e.preventDefault();
+modalStore.showModal("Test","text");
+}
 const heroContent = computed(() => {
   return {
     'lg:w-3/4 xl:w-2/4 relative z-10 h-100 lg:mt-16 mx-auto': isHomePage.value,
@@ -61,6 +65,7 @@ const heroContent = computed(() => {
           <li>
             <a
               href="#"
+              @click="showModal"
               class="px-4 py-2 bg-red-700 text-white rounded-2xl inline-block font-semibold"
             >Contact
               Us</a>
@@ -73,7 +78,7 @@ const heroContent = computed(() => {
       <TemBaoNavbar />
     </div>
   </header>
-  <!-- <div class="bg-gray-100">
+  <div class="bg-gray-100">
     <section
       class="cover bg-blue-teal-gradient relative  px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden flex items-center" :class="{ 'min-h-screen': isHomePage, 'py-48': isHomePage }"
     >
@@ -82,6 +87,7 @@ const heroContent = computed(() => {
           src="https://trello.com/1/cards/6419d45c1db3bb42879b9595/attachments/641b7a85a9a9c692b8b7392a/previews/641b7a85a9a9c692b8b73979/download/334727259_543079174629539_7373861307719555361_n.jpg"
           alt="" class="w-full h-full object-cover opacity-60"
         >
+        <!-- <TemBaoBgVideo></TemBaoBgVideo> -->
       </div>
 
       <div :class="heroContent">
@@ -102,8 +108,8 @@ const heroContent = computed(() => {
         </div>
       </div>
     </section>
-  </div> -->
- <TemBaoBgVideo/>
+  </div>
+ <!-- <TemBaoBgVideo/> -->
 </template>
 
 <style>
