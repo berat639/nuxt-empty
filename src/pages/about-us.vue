@@ -6,7 +6,7 @@ const { t } = useLang()
   <section class="relative bg-gray-100   text-gray-800 px-4 sm:px-8 lg:px-8 xl:px-40 2xl:px-64 py-16 lg:py-32">
     <div class="flex justify-center">
       <div class="text-center lg:max-w-3xl md:max-w-xl">
-        <h2 class="text-3xl font-bold mb-12 px-6">Contact us</h2>
+        <h2 class="text-3xl font-bold mb-12 px-6"> {{ t("ContactUs") }} </h2>
       </div>
     </div>
 

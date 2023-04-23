@@ -24,14 +24,14 @@ const { t } = useLang()
                   
                     <div class="ml-8">
                         
-                        <p class="text-xl  leading-relaxed">    {{ t("PublicSectorParagraph0") }} </p>
+                        <p class="text-xl  leading-relaxed">    {{ t("FinanceSectorParagraph0") }} </p>
                     </div>
                 </div>
 
                 <div class="flex mt-4">
                     
                     <div class="ml-8">
-                        <p class=" leading-relaxed">    {{ t("PublicSectorParagraph1") }} </p>
+                        <p class=" leading-relaxed">    {{ t("FinanceSectorParagraph1") }} </p>
                     </div>
                 </div>
                
