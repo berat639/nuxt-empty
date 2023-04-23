@@ -90,7 +90,7 @@ const { t } = useLang()
                 </svg>
               </span>
               <span class="ml-3">
-                1985 Kerry Way, Whittier, CA, USA
+                {{ t("Adress")}}
               </span>
             </a>
           </li>
@@ -107,8 +107,7 @@ const { t } = useLang()
                   <path d="M13 7L11 7 11 13 17 13 17 11 13 11z" /></svg>
               </span>
               <span class="ml-3">
-                Mon - Fri: 9:00 - 19:00<br>
-                Closed on Weekends
+                {{ t("opening hours")}}
               </span>
             </a>
           </li>
@@ -125,7 +124,7 @@ const { t } = useLang()
                 </svg>
               </span>
               <span class="ml-3">
-                +1 562-789-1935
+                {{ t("Telefon")}}
               </span>
             </a>
           </li>

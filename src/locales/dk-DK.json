@@ -105,7 +105,16 @@
   "Copenhagen":"København",
   "London":"London",
   "Istanbul":"Istanbul",
-  "Berlin":"Berlin"
+  "Berlin":"Berlin",
+  "Adress":"Vores adresse skal står her",
+  "opening hours":"Åbningstider",
+  "FrontPageLocationText":"BAO er et førende globalt cybersikkerhedsfirma, der er dedikeret til at levere uovertrufne sikkerhedstjenester til kunder over hele verden.",
+  "FrontPageServicesText":"Vælg BAO som din betroede leverandør af cybersikkerhed, og beskyt dine digitale aktiver med tillid. Vi tilbyder en række tjenester, herunder trusselsinformation, sårbarhedsvurderinger, penetrationstest, hændelsesrespons og meget mere, som alle er designet til at beskytte dig.",
+  "FRONTPAGECOUNSELINGTEXT":" Hold dig et skridt foran cybertrusler med skræddersyet rådgivning om cybersikkerhed fra BAO. Vores eksperthold leverer personlige løsninger til at beskytte din organisation mod potentielle risici og sikrer dig ro i sindet.",
+  "FrontPageINTELLIGENCEText":" Beskyt din virksomhed med avancerede cyberintelligensløsninger fra BAO. Vores banebrydende tjenester leverer trusselsinformation i realtid og gør det muligt for dig at identificere og afbøde potentielle angreb proaktivt, hvilket giver dig en konkurrencefordel",
+  "FrontPageINVESTIGATIONText":"Når cybertrusler rammer, kan du stole på BAO's team af professionelle til at undersøge og identificere kilden til angrebene. Vores ekspertydelser inden for cyberundersøgelser hjælper dig med at forstå sårbarheder og leverer handlingsorienterede løsninger til at forhindre fremtidige angreb.",
+  "FrontPageOSINTText":"Hold dig informeret og sikker med BAO's avancerede cyber Open Source Intelligence (OSINT)-løsninger. Vores skræddersyede tjenester giver efterretninger om trusler i realtid fra åbne kilder, hvilket giver dig en omfattende forståelse af potentielle angreb og sætter dig i stand til at træffe proaktive foranstaltninger for at beskytte dine organisation."
+
 
   
  

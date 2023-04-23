@@ -1,20 +1,22 @@
+<script setup lan="ts">
+const { t } = useLang()
+</script>
 <template>
   <div>
     <!-- start testimonials -->
     <section class="relative bg-gray-100 px-4 sm:px-8 lg:px-8 xl:px-40 2xl:px-64 py-16 lg:py-32">
       <div
-        class="flex lg:flex-row"
+        class="flex lg:flex-row leading-relaxed"
         style="
   background: url('https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg');background-repeat: no-repeat; background-size: 100% 60%;"
       >
         <div class="w-full">
           <div class="w-full lg:px-8 flex-row">
-            <h2 class="text-3xl leading-tight font-bold mt-4">
-              LOCATIONS
+            <h2 class="text-3xl leading-tight font-bold mt-4 ">
+              {{ t("Location") }}
             </h2>
-            <p class="mt-2 leading-relaxed">
-              BAO is a premier global cybersecurity firm dedicated to providing
-              unparalleled security services to clients worldwide.
+            <p class="mt-2">
+              {{ t("FrontPageLocationText") }}
             </p>
           </div>
           <div class="md:flex mt-12 md:-mx-4">
@@ -31,11 +33,11 @@
                   <a href="#" class="block mt-1 text-lg text-gray-700 hover:underline font-bold">Denmark</a>
 
                   <p class="mt-2 text-gray-600">
-                    Denmark – Copenhagen.
+                    {{ t("Location") }}
                   </p>
                   <div class="pt-4 pb-2">
                     <p class="mt-2 text-gray-600">
-                      05076652367
+                     DENMARK – COPENHAGEN
                     </p>
                   </div>
                 </div>
@@ -151,39 +153,25 @@
     <!-- start blog -->
     <section class="relative bg-red-700 px-4 sm:px-8 lg:px-16 xl:px-16 2xl:px-16 py-32 sm:mb-1">
       <div class="mx-5 flex flex-col lg:flex-row sm:mb-8">
-        <h2 class="text-3xl leading-tight text-white font-bold">
-          Services
+        <h2 class="text-3xl leading-tight text-white font-bold leading-relaxing">
+          {{ t("Services") }}
         </h2>
       </div>
-      <div class="mx-5 flex flex-col lg:flex-row sm:mb-16">
+      <div class="mx-5 flex flex-col lg:flex-row sm:mb-16 leading-relaxed">
         <p class="text-white mt-2">
-          Choose BAO as your trusted
-          cybersecurity provider and
-          protect your digital assets with
-          confidence. We provide a range
-          of services, including threat
-          intelligence, vulnerability
-          assessments, penetration
-          testing, incident response, and
-          more, all designed to keep you
-          protected.
+          {{ t("FrontPageServicesText") }}
         </p>
       </div>
 
-      <div class="flex lg:flex-row">
-        <div class="custom-grid">
+      <div class="flex lg:flex-row ">
+        <div class="custom-grid leading-relaxing">
           <div class="custom-card rounded-xl bg-white">
             <img src="https://picsum.photos/g/600/400?image=1083" alt="Sample photo" class="rounded-t-xl">
-            <div class="text">
-              <h3>Counseling</h3>
+            <div class="text ">
+              <h3>{{ t("COUNSELING") }}</h3>
               <p>
-                Stay one step ahead of cyber
-                threats with tailored cybersecurity
-                advice from BAO. Our expert team
-                provides personalized solutions to
-                protect your organization from
-                potential risks, ensuring your
-                peace of mind.
+                {{ t("FRONTPAGECOUNSELINGTEXT") }}
+               
               </p>
             </div>
           </div>
@@ -191,15 +179,9 @@
             <img src="https://picsum.photos/g/600/400?image=1083" alt="Sample photo" class="rounded-t-xl">
             <i class="fa fa-shield text-red-700" />
             <div class="text">
-              <h3>Intelligence</h3>
+              <h3>{{ t("INTELLIGENCE") }}</h3>
               <p>
-                Protect your business with advanced
-                cyber intelligence solutions from BAO.
-                Our cutting-edge services provide real-
-                time threat intelligence and enable you
-                to proactively identify and mitigate
-                potential attacks, giving you a
-                competitive edge
+                 {{ t("FrontPageINTELLIGENCEText") }}
               </p>
             </div>
           </div>
@@ -207,15 +189,10 @@
             <img src="https://picsum.photos/g/600/400?image=1083" alt="Sample photo" class="rounded-t-xl">
             <i class="fa fa-shield text-red-700" />
             <div class="text">
-              <h3>Investigation</h3>
+              <h3>{{ t("INVESTIGATION") }}</h3>
               <p>
-                When cyber threats strike, trust BAO's
-                team of professionals to investigate and
-                identify the source of attacks. Our expert
-                cyber investigation services help you to
-                understand vulnerabilities and provide
-                actionable solutions to prevent future
-                attacks.
+                {{ t("FrontPageINVESTIGATIONText") }}
+                
               </p>
             </div>
           </div>
@@ -223,17 +200,9 @@
             <img src="https://picsum.photos/g/600/400?image=1083" alt="Sample photo" class="rounded-t-xl">
             <i class="fa fa-shield text-red-700" />
             <div class="text">
-              <h3>OSINT</h3>
+              <h3>{{ t("OSINT") }}</h3>
               <p>
-                Stay informed and secure with BAO's
-                advanced cyber Open Source Intelligence
-                (OSINT) solutions. Our tailored services
-                provide real-time threat intelligence
-                from open sources, giving you a
-                comprehensive understanding of
-                potential attacks and enabling you to
-                take proactive measures to protect your
-                organization.
+                {{ t("FrontPageOSINTText") }}
               </p>
             </div>
           </div>

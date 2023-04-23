@@ -106,7 +106,14 @@
   "Copenhagen":"Copenhagen",
   "London":"London",
   "Istanbul":"Istanbul",
-  "Berlin":"Berlin"
+  "Berlin":"Berlin",
+  "Adress":"Vores adresse skal står her",
+  "opening hours":"opening hours",
+  "FrontPageLocationText":"BAO is a premier global cybersecurity firm dedicated to providing  unparalleled security services to clients worldwide.",
+  "FrontPageServicesText":"Choose BAO as your trusted cybersecurity provider and protect your digital assets with confidence. We provide a range of services, including threat intelligence, vulnerability assessments, penetration testing, incident response, and more, all designed to keep you protected.",
+  "FRONTPAGECOUNSELINGTEXT":" Stay one step ahead of cyber threats with tailored cybersecurity advice from BAO. Our expert team provides personalized solutions to protect your organization from  potential risks, ensuring your peace of mind.",
+  "FrontPageINTELLIGENCEText":"  Protect your business with advanced cyber intelligence solutions from BAO. Our cutting-edge services provide real- time threat intelligence and enable you to proactively identify and mitigate potential attacks, giving you a competitive edge",
+  "FrontPageINVESTIGATIONText":"When cyber threats strike, trust BAO's team of professionals to investigate and identify the source of attacks. Our expert cyber investigation services help you to understand vulnerabilities and provide actionable solutions to prevent future attacks."
 
 
 
