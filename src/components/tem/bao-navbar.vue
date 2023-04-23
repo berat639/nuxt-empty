@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 import {
   TheDropDownItem,
   TheDropDownMenu,
@@ -11,6 +12,7 @@ import { availableLocales } from '~/locales/availableLocales'
 
 const switchLocalePath = useSwitchLocalePath()
 const dropdownMenu = ref<InstanceType<typeof TheDropDownMenu>>()
+  const { t } = useLang()
 </script>
 
 <template>
@@ -22,107 +24,109 @@ const dropdownMenu = ref<InstanceType<typeof TheDropDownMenu>>()
         </h4>
       </NuxtLink>
     </template>
-    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom" text="SERVICES">
+    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom leading-relaxed" text="SERVICES">
       <TheDropDownItem link="/services">
-        SERVICES
+        {{ t("SERVICES") }}
       </TheDropDownItem>
       <TheDropDownItem link="/services/counseling">
-        COUNSELING
+        {{ t("COUNSELING") }}
       </TheDropDownItem>
       <TheDropDownItem link="/services/intelligence">
-        INTELLIGENCE
+        {{ t("INTELLIGENCE") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/services/investigation">
-        INVESTIGATION
+        {{ t("INVESTIGATION") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/services/osint">
-        OSINT
+        {{ t("OSINT") }} 
       </TheDropDownItem>
     </TheDropDownMenu>
-    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom" text="SECTORS">
+    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed" text="SECTORS">
       <TheDropDownItem link="/sectors">
-        SECTORS
+        {{ t("SECTORS") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/sectors/communication-and-mediation-sector">
-        COMMUNICATION-AND-MEDIATION-SECTOR
+        {{ t("COMMUNICATION-AND-MEDIATION-SECTOR") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/sectors/energy-sector">
-        ENERGY-SECTOR
+        {{ t("ENERGY-SECTOR") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/sectors/environment-and-nutrition-sector">
-        ENVIRONMENT-AND-NUTRITION-SECTOR
+        {{ t("ENVIRONMENT-AND-NUTRITION-SECTOR") }} 
+      </TheDropDownItem>
+      <TheDropDownItem link="/sectors/Finance-Sector">
+        {{ t("FINANCE-SECTOR") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/sectors/healthcare-sector">
-        HEALTHCARE-SECTOR
+        {{ t("HEALTHCARE-SECTOR") }}
       </TheDropDownItem>
       <TheDropDownItem link="/sectors/information-technology-sector">
-        INFORMATION-TECHNOLOGY-SECTOR
+        {{ t("INFORMATION-TECHNOLOGY-SECTOR") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/sectors/legal-rights-sector">
-        LEGAL-RIGHTS-SECTOR
+        {{ t("LEGAL-RIGHTS-SECTOR") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/sectors/national-security">
-        NATIONAL-SECURITY
+        {{ t("NATIONAL-SECURITY") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/sectors/public-sector">
-        PUBLIC-SECTOR
+        {{ t("PUBLIC-SECTOR") }}  
       </TheDropDownItem>
       <TheDropDownItem link="/sectors/telecommunications-sector">
-        TELECOMMUNICATIONS-SECTOR
+        {{ t("TELECOMMUNICATIONS-SECTOR") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/sectors/transport-sector">
-        TRANSPORT-SECTOR
+        {{ t("TRANSPORT-SECTOR") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/sectors/supply-sector">
-        SUPPLY-SECTOR
+        {{ t("SUPPLY-SECTOR") }}
       </TheDropDownItem>
     </TheDropDownMenu>
-    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom" text="KNOWLEDGE">
+    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed" text="KNOWLEDGE">
       <TheDropDownItem link="/knowledge">
-        KNOWLEDGE
+        {{ t("KNOWLEDGE") }}  
       </TheDropDownItem>
       <TheDropDownItem link="/about-us">
-        LECTURE
+        {{ t("LECTURE") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/about-us">
-        COURSE
+        {{ t("COURSE") }}
       </TheDropDownItem>
       <TheDropDownItem link="/about-us">
-        EDUCATİON
+        {{ t("EDUCATİON") }}  
       </TheDropDownItem>
     </TheDropDownMenu>
-    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom" text="LOCATIONS">
+    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed" text="LOCATIONS">
       <TheDropDownItem link="/about-us">
-        DENMARK – COPENHAGEN
+        {{ t("DENMARK – COPENHAGEN") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/about-us">
-        ENGLAND – LONDON
+        {{ t("ENGLAND – LONDON") }} 
       </TheDropDownItem>
       <TheDropDownItem link="/about-us">
-        NORWAY – OSLO
+        {{ t("NORWAY – OSLO") }} 
       </TheDropDownItem>
     </TheDropDownMenu>
 
-    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom" link="/">
+    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom  leading-relaxed" link="/">
       <span
         class="text-white"
-      >NEWS</span>
+      > {{ t("NEWS") }} </span>
     </TheDropDownItem>
 
-    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom" link="/about-us">
+    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom  leading-relaxed" link="/about-us">
       <span
         class="text-white"
-      >CAREERS</span>
+      > {{ t("CAREERS") }} </span>
     </TheDropDownItem>
 
-    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom" link="/about-us">
+    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom  leading-relaxed" link="/about-us">
       <span
         class="text-white"
-      >ABOUT
-        US</span>
+      >{{ t("ABOUT US") }}</span>
     </TheDropDownItem>
 
-    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom" text="LANG">
+    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed" text="LANG">
       <TheDropDownItem v-for="lang in availableLocales" :key="lang.iso" :prop-key="lang.iso" :link="switchLocalePath(lang.iso)">
         {{
           lang.name }}

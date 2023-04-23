@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t } = useLang()
 const route = useRoute()
 const isHomePage = computed(() => route.path === '/')
 const modalStore= useModalStore()
@@ -33,7 +34,7 @@ const heroContent = computed(() => {
                 />
               </svg>
 
-              <span class="ml-2">1985 Kerry Way, Whittier, CA, USA</span>
+              <span class="ml-2" leading-relaxed>    {{ t("LeftTop") }}</span>
             </div>
           </li>
           <li class="ml-6">
@@ -47,7 +48,7 @@ const heroContent = computed(() => {
                 />
               </svg>
 
-              <span class="ml-2">+1 562-789-1935</span>
+              <span class="ml-2" leading-relaxed>    {{ t("Telefon") }}</span>
             </div>
           </li>
         </ul>
@@ -56,19 +57,17 @@ const heroContent = computed(() => {
       <div class="">
         <ul class="flex justify-end text-white">
           <li>
-            <a
-              href="#"
-              class="px-4 py-2 mr-2 bg-red-700 text-white rounded-2xl inline-block font-semibold"
-            >Keep
-              This</a>
+            <a href="#" @click="showModal" 
+            class="px-4 py-2 bg-red-700 text-white rounded-2xl inline-block font-semibold leading-relaxed">
+            {{ t("RightTop1") }}
+          </a>
+
           </li>
           <li>
-            <a
-              href="#"
-              @click="showModal"
-              class="px-4 py-2 bg-red-700 text-white rounded-2xl inline-block font-semibold"
-            >Contact
-              Us</a>
+            <a href="#" @click="showModal" 
+            class="px-4 py-2 bg-red-700 text-white rounded-2xl inline-block font-semibold leading-relaxed">
+            {{ t("ContactUs") }}
+          </a>
           </li>
         </ul>
       </div>
@@ -92,18 +91,16 @@ const heroContent = computed(() => {
 
       <div :class="heroContent">
         <div :class="{ 'mb-12': !isHomePage }">
-          <h1 class="text-white text-2xl md:text-5xl xl:text-4xl font-bold leading-tight text-center" :class="{ 'text-center': !isHomePage }">
-            We provide security for
-            digital Denmark
+          <h1 class="text-white text-2xl md:text-5xl xl:text-4xl font-bold leading-tight text-center leading-relaxed"  :class="{ 'text-center': !isHomePage }">
+            {{ t("WeProvide") }}
+            
           </h1>
-          <div class="text-white text-xl md:text-2xl leading-snug mt-4 text-center">
+          <div class="text-white text-xl md:text-2xl leading-snug mt-4 text-center leading-relaxed">
             <p>
-              As a global cybersecurity firm, we have made
-              it our mission to provide
-              unparalleled security solutions that
-              protect against ever-evolving threats.
+               {{ t("TextToWeProvide") }}
+              
             </p>
-            <a v-if="isHomePage" href="#" class="px-4 py-2 bg-red-700 text-white rounded-2xl mt-5 inline-block font-semibold">Contact Us</a>
+            <a v-if="isHomePage" href="#" class="px-4 py-2 bg-red-700 text-white rounded-2xl mt-5 inline-block font-semibold leading-relaxed"> {{ t("ContactUs") }}</a>
           </div>
         </div>
       </div>

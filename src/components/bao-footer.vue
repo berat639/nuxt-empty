@@ -1,3 +1,6 @@
+<script setup lang="ts">
+const { t } = useLang()
+</script>
 <template>
   <footer class="relative bg-gray-300 text-gray-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
     <div class="flex flex-col md:flex-row">
@@ -7,67 +10,67 @@
             bawareof / <span class="text-red-700">bao</span>
           </h3>
         </NuxtLink>
-        <p class="text-gray-600">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+        <p class="text-gray-600 leading-relaxed">
+         {{ t("FooterText") }}  
         </p>
 
-        <form class="flex items-center mt-6">
+        <form class="flex items-center mt-6  leading-relaxed">
           <div class="w-full">
             <label class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2" for="grid-last-name">
-              Subscribe for our Newsletter
+              {{ t("SubscribeText") }} 
             </label>
             <div class="relative">
               <input
                 class="appearance-none block w-full bg-gray-200 text-gray-600 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                type="email" placeholder="Enter Your Email Address"
+                type="email" placeholder="Email"
               >
 
               <button
                 type="submit"
                 class="bg-red-700 hover:bg-red-400 text-white px-4 py-2 text-sm font-bold rounded absolute top-0 right-0 my-2 mr-2"
               >
-                Subscribe
+              {{ t("Subscribe") }} 
               </button>
             </div>
           </div>
         </form>
       </div>
 
-      <div class="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
+      <div class="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4 leading-relaxed">
         <h5 class="uppercase tracking-wider font-semibold text-gray-500">
           BAO
         </h5>
         <ul class="mt-4">
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">Locations</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Location") }} </a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">Services</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Services") }}</a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">Sectors</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Location") }}</a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">About Us</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("About Us")}}</a>
           </li>
         </ul>
       </div>
       <div class="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
         <h5 class="uppercase tracking-wider font-semibold text-gray-500">
-          Locations
+          {{ t("Location") }}
         </h5>
         <ul class="mt-4">
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">Toronto</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Copenhagen")}}</a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">Ottawa</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("London")}}</a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">Calagry</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Istanbul")}}</a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">Edmonton</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Berlin")}}</a>
           </li>
         </ul>
       </div>
