@@ -21,13 +21,13 @@ const { t } = useLang()
             </label>
             <div class="relative">
               <input
-                class="appearance-none block w-full bg-gray-200 text-gray-600 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                class="appearance-none block w-full bg-gray-200 text-gray-600 border border-gray-200 rounded py-4 px-4 leading-tight focus:border-gray-500"
                 type="email" placeholder="Email"
               >
 
               <button
                 type="submit"
-                class="bg-red-700 hover:bg-red-400 text-white px-4 py-2 text-sm font-bold rounded absolute top-0 right-0 my-2 mr-2"
+                class="bg-red-700 text-white px-4 py-2 text-sm font-bold rounded absolute top-0 right-0 my-2 mr-2"
               >
               {{ t("Subscribe") }} 
               </button>

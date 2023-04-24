@@ -1,5 +1,4 @@
 @import url('./global.css');
-@import url('vue3-carousel/dist/carousel.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
