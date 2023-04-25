@@ -91,7 +91,7 @@ const { t } = useLang()
               </div>
               <div class="grow ml-6">
                 <p class="font-bold mb-1">{{ t("TechSupport") }}</p>
-                <p class="text-gray-500">{{ t("SupportEmail") }}</p>
+                <p class="text-gray-500">info@bewareof.com</p>
                 <p class="text-gray-500">{{ t("Telefon") }}</p>
               </div>
             </div>
@@ -128,7 +128,7 @@ const { t } = useLang()
               </div>
               <div class="grow ml-6">
                 <p class="font-bold mb-1">{{ t("Press") }}</p>
-                <p class="text-gray-500">{{ t("PressEmail") }}</p>
+                
                 <p class="text-gray-500">{{ t("Telefon") }}</p>
               </div>
             </div>
@@ -147,7 +147,7 @@ const { t } = useLang()
               </div>
               <div class="grow ml-6">
                 <p class="font-bold mb-1">{{ t("Bug report") }}</p>
-                <p class="text-gray-500">{{ t("BugsEmail") }}</p>
+                
                 <p class="text-gray-500">{{ t("Telefon") }}</p>
               </div>
             </div>

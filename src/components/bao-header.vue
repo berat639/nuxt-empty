@@ -77,7 +77,9 @@ const heroContent = computed(() => {
       <TemBaoNavbar />
     </div>
   </header>
-  <!-- <div class="bg-gray-100">
+ <TemBaoBgVideo v-if="isHomePage" />
+
+  <div v-else class="bg-gray-100">
     <section
       class="cover bg-blue-teal-gradient relative  px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden flex items-center" :class="{ 'min-h-screen': isHomePage, 'py-48': isHomePage }"
     >
@@ -105,8 +107,7 @@ const heroContent = computed(() => {
         </div>
       </div>
     </section>
-  </div> -->
- <TemBaoBgVideo/>
+  </div>
 </template>
 
 <style>
