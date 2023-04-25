@@ -12,7 +12,7 @@ import { availableLocales } from '~/locales/availableLocales'
 
 const switchLocalePath = useSwitchLocalePath()
 const dropdownMenu = ref<InstanceType<typeof TheDropDownMenu>>()
-  const { t } = useLang()
+const { t } = useLang()
 </script>
 
 <template>
@@ -24,110 +24,166 @@ const dropdownMenu = ref<InstanceType<typeof TheDropDownMenu>>()
         </h4>
       </NuxtLink>
     </template>
-    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom leading-relaxed" text="SERVICES">
-      <TheDropDownItem :link="localePath('index')">
-        {{ t("SERVICES") }}
+    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom leading-relaxed"
+      text="SERVICES">
+      <TheDropDownItem>
+        <NuxtLink :to="localePath('/services')">
+          {{ t("SERVICES") }}
+        </NuxtLink>
       </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/services/counseling')">
-        {{ t("COUNSELING") }}
+      <TheDropDownItem >
+        <NuxtLink :to="localePath('/services/counseling')">
+          {{ t("COUNSELING") }}
+        </NuxtLink>
       </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/services/intelligence')">
-        {{ t("INTELLIGENCE") }} 
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/services/intelligence')">
+          {{ t("INTELLIGENCE") }}
+        </NuxtLink>
       </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/services/investigation')">
-        {{ t("INVESTIGATION") }} 
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/services/investigation')">
+          {{ t("INVESTIGATION") }}
+        </NuxtLink>
       </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/services/osint')">
-        {{ t("OSINT") }} 
-      </TheDropDownItem>
-    </TheDropDownMenu>
-    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed" text="SECTORS">
-      <TheDropDownItem :link="localePath('/sectors')">
-        {{ t("SECTORS") }} 
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/communication-and-mediation-sector')">
-        {{ t("COMMUNICATION-AND-MEDIATION-SECTOR") }} 
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/energy-sector')">
-        {{ t("ENERGY-SECTOR") }} 
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/environment-and-nutrition-sector')">
-        {{ t("ENVIRONMENT-AND-NUTRITION-SECTOR") }} 
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/Finance-Sector')">
-        {{ t("FINANCE-SECTOR") }} 
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/healthcare-secto')">
-        {{ t("HEALTHCARE-SECTOR") }}
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/information-technology-sector')">
-        {{ t("INFORMATION-TECHNOLOGY-SECTOR") }} 
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/legal-rights-sector')">
-        {{ t("LEGAL-RIGHTS-SECTOR") }} 
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/national-security')">
-        {{ t("NATIONAL-SECURITY") }} 
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/public-sector')">
-        {{ t("PUBLIC-SECTOR") }}  
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/telecommunications-sector')">
-        {{ t("TELECOMMUNICATIONS-SECTOR") }} 
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/transport-sector')">
-        {{ t("TRANSPORT-SECTOR") }} 
-      </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/sectors/supply-sector')">
-        {{ t("SUPPLY-SECTOR") }}
+      <TheDropDownItem>
+        <NuxtLink :to="localePath('/services/osint')">
+          {{ t("OSINT") }}
+        </NuxtLink>
       </TheDropDownItem>
     </TheDropDownMenu>
-    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed" text="KNOWLEDGE">
-      <TheDropDownItem :link="localePath('/knowledge')">
-        {{ t("KNOWLEDGE") }}  
+    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed"
+      text="SECTORS">
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors')">
+          SECTORS
+        </NuxtLink>
       </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/about-us')">
-        {{ t("LECTURE") }} 
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors/communication-and-mediation-sector')">
+          {{ t("COMMUNICATION-AND-MEDIATION-SECTOR") }}
+        </NuxtLink>
       </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/about-us')">
-        {{ t("COURSE") }}
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors/energy-sector')">
+          {{ t("ENERGY-SECTOR") }}
+        </NuxtLink>
       </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/about-us')">
-        {{ t("EDUCATİON") }}  
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors/environment-and-nutrition-sector')">
+          {{ t("ENVIRONMENT-AND-NUTRITION-SECTOR") }}
+        </NuxtLink>
+
+      </TheDropDownItem>
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors/Finance-Sector')">
+          {{ t("FINANCE-SECTOR") }}
+        </NuxtLink>
+      </TheDropDownItem>
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors/healthcare-sector')">
+          {{ t("HEALTHCARE-SECTOR") }}
+        </NuxtLink>
+      </TheDropDownItem>
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors/information-technology-sector')">
+          {{ t("INFORMATION-TECHNOLOGY-SECTOR") }}
+        </NuxtLink>
+      </TheDropDownItem>
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors/legal-rights-sector')">
+          {{ t("LEGAL-RIGHTS-SECTOR") }}
+        </NuxtLink>
+      </TheDropDownItem>
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors/national-security')">
+          {{ t("LEGAL-RIGHTS-SECTOR") }}
+        </NuxtLink>
+      </TheDropDownItem>
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors/public-sector')">
+          {{ t("PUBLIC-SECTOR") }}
+        </NuxtLink>
+      </TheDropDownItem>
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors/telecommunications-sector')">
+          {{ t("TELECOMMUNICATIONS-SECTOR") }}
+        </NuxtLink>
+      </TheDropDownItem>
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/sectors/transport-sector')">
+          {{ t("TRANSPORT-SECTOR") }}
+        </NuxtLink>
+      </TheDropDownItem>
+      <TheDropDownItem >
+        <NuxtLink :to="localePath('/sectors/supply-sector')">
+          {{ t("SUPPLY-SECTOR") }}
+        </NuxtLink>
       </TheDropDownItem>
     </TheDropDownMenu>
-    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed" text="LOCATIONS">
-      <TheDropDownItem :link="localePath('/about-us')">
-        {{ t("DENMARK – COPENHAGEN") }} 
+    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed"
+      text="KNOWLEDGE">
+      <TheDropDownItem> 
+        <NuxtLink :to="localePath('/knowledge')">
+          {{ t("KNOWLEDGE") }}
+        </NuxtLink>
       </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/about-us')">
-        {{ t("ENGLAND – LONDON") }} 
+      <TheDropDownItem > 
+        <NuxtLink :to="localePath('/about-us')">
+          {{ t("LECTURE") }}
+        </NuxtLink>
       </TheDropDownItem>
-      <TheDropDownItem :link="localePath('/about-us')">
-        {{ t("NORWAY – OSLO") }} 
+      <TheDropDownItem> 
+        <NuxtLink :to="localePath('/about-us')">
+          {{ t("COURSE") }}
+        </NuxtLink>
+      </TheDropDownItem>
+      <TheDropDownItem > 
+        <NuxtLink :to="localePath('/about-us')">
+          {{ t("EDUCATİON") }}
+        </NuxtLink>
+      </TheDropDownItem>
+    </TheDropDownMenu>
+    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed"
+      text="LOCATIONS">
+      <TheDropDownItem >
+        <NuxtLink :to="localePath('/about-us')">
+          {{ t("DENMARK – COPENHAGEN") }}
+        </NuxtLink>
+      </TheDropDownItem>
+      <TheDropDownItem >
+        <NuxtLink :to="localePath('/about-us')">
+          {{ t("ENGLAND – LONDON") }}
+        </NuxtLink>
+      </TheDropDownItem>
+      <TheDropDownItem  >
+        <NuxtLink :to="localePath('/about-us')">
+          {{ t("NORWAY – OSLO") }}
+        </NuxtLink>
       </TheDropDownItem>
     </TheDropDownMenu>
 
-    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom  leading-relaxed" :link="localePath('/')">
-      <span
-        class="text-white"
-      > {{ t("NEWS") }} </span>
+    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom  leading-relaxed">
+      <span class="text-white"> {{ t("NEWS") }} </span>
     </TheDropDownItem>
 
-    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom  leading-relaxed" :link="localePath('/about-us')">
-      <span
-        class="text-white"
-      > {{ t("CAREERS") }} </span>
+    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom  leading-relaxed">
+     
+      <NuxtLink :to="localePath('/about-us')">
+        <span class="text-white"> {{ t("CAREERS") }} </span>
+        </NuxtLink>
     </TheDropDownItem>
 
-    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom  leading-relaxed" :link="localePath('/about-us')">
-      <span
-        class="text-white"
-      >{{ t("ABOUT US") }}</span>
+    <TheDropDownItem class=" inline-block lg:block font-semibold text-custom  leading-relaxed">
+      <NuxtLink :to="localePath('/about-us')">
+        <span class="text-white">{{ t("ABOUT US") }}</span>
+        </NuxtLink> 
     </TheDropDownItem>
 
-    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed" text="LANG">
-      <TheDropDownItem v-for="lang in availableLocales" :key="lang.iso" :prop-key="lang.iso" ::link="switchLocalePath(lang.iso)">
+    <TheDropDownMenu ref="dropdownMenu" class="inline-block lg:block font-semibold text-custom  leading-relaxed"
+      text="LANG">
+      <TheDropDownItem v-for="lang in availableLocales" :key="lang.iso" :prop-key="lang.iso"
+        :link="switchLocalePath(lang.iso)">
         {{
           lang.name }}
       </TheDropDownItem>

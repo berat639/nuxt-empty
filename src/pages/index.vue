@@ -216,11 +216,11 @@ const { t } = useLang()
 
     <!-- end cta -->
     <!-- start cta -->
-    <section class="relative  px-4 sm:px-8 lg:px-8 xl:px-16 2xl:px-16 py-12 bg-red-700">
+    <section class="relative  px-4 sm:px-8 lg:px-8 xl:px-16 2xl:px-16 py-12 bg-red-700 ">
       <div class="flex flex-col md:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8 items-center justify-center my-auto">
-          <h1 class="text-white sm:my-8 text-4xl md:text-5xl xl:text-6xl font-light leading-tight">
-            Why work with BAO?
+          <h1 class="text-white sm:my-8 text-4xl md:text-5xl xl:text-6xl font-light leading-tight leading-relaxing">
+            {{ t("Why Work With Bao Frontpage") }}
           </h1>
           <div class="border-2 border-white w-full" />
         </div>
@@ -229,50 +229,42 @@ const { t } = useLang()
           <div class="container mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
               <div class="flex-column justify-center  border-shadow rounded-xl  font-light p-2">
-                <div class="border-card-header flex flex-row h-fit w-full text-white justify-center border-b pb-1  border-white text-xl font-light mb-2">
-                  Experience
+                <div class="border-card-header flex flex-row h-fit w-full text-white justify-center border-b pb-1  border-white text-xl font-light mb-2 leading-relaxing">
+                  {{ t("Experience") }}
                 </div>
                 <div class="lg:h-fit flex flex-row justify-center">
-                  <p class="p-5 text-white text-sm font-normal leading-4 font-roboto">
-                    BAO has years of experience providing cybersecurity solutions to a range of industries, and we have developed
-                    a deep understanding of the unique challenges and risks associated with each one.
+                  <p class="p-5 text-white text-sm font-normal leading-4 font-roboto leading-relaxing">
+                    {{ t("Experience Text") }} 
                   </p>
                 </div>
               </div>
               <div class="flex-column justify-center  border-shadow rounded-xl  font-light p-2 ">
                 <div class="border-card-header flex flex-row h-fit w-full text-white justify-center border-b pb-1  border-white text-xl font-light mb-2">
-                  Expertise
+                  {{ t("Expertise") }} 
                 </div>
                 <div class="lg:h-fit f flex flex-row justify-center">
                   <p class="p-5 text-white text-sm font-normal leading-4 font-roboto">
-                    Our team of cybersecurity experts is highly skilled and knowledgeable in the latest technologies, tools, and
-                    techniques needed to protect against cyber threats. We stay up-to-date with the latest industry trends and best practices to
-                    ensure our clients receive the best possible service
+                    {{ t("Expertise Text") }}  
                   </p>
                 </div>
               </div>
               <div class="flex-column justify-center  border-shadow rounded-xl  font-light p-2">
                 <div class="border-card-header flex flex-row h-fit w-full text-white justify-center border-b pb-1  border-white text-xl font-light mb-2">
-                  Customized Solutions
+                  {{ t("Customized Solutions") }}  
                 </div>
                 <div class="lg:h-fit f flex flex-row justify-center">
                   <p class="p-5 text-white text-sm font-normal leading-4 font-roboto">
-                    We understand that every client is unique, and we provide customized cybersecurity solutions
-                    tailored to the specific needs and requirements of each organization. We work closely with our clients to develop and
-                    implement a cybersecurity strategy that meets their needs and budget
+                    {{ t("Customized Solutions Text") }}   
                   </p>
                 </div>
               </div>
               <div class="flex-column justify-center border-shadow rounded-xl  font-light p-2">
                 <div class="border-card-header flex flex-row h-fit w-full text-white justify-center border-b pb-1 border-white text-xl font-light">
-                  24/7 Support
+                  {{ t("24/7 Support") }} 
                 </div>
                 <div class="lg:h-fit f flex flex-row justify-center">
                   <p class="p-5 text-white text-sm font-normal leading-4 font-roboto">
-                    x At BAO, we are committed to providing our clients with 24/7 support, ensuring that they have access to
-                    immediate assistance in case of a cybersecurity incident. We understand the importance of quick response times in
-                    mitigating potential damage from cyber attacks, and our team is always available to provide support and guidance when it's
-                    needed most.
+                    {{ t("24/7 Support Text") }}  
                   </p>
                 </div>
               </div>
@@ -284,7 +276,7 @@ const { t } = useLang()
     <!-- end cta -->
 
     <!-- start cta -->
-    <section class="relative  px-4 sm:px-8 lg:px-8 xl:px-16 2xl:px-16 py-12 bg-blck">
+    <section class="relative  px-4 sm:px-8 lg:px-8 xl:px-16 2xl:px-16 py-12 bg-blck ">
       <div class="flex flex-col md:flex-row lg:-mx-8">
         <div class="w-full lg:w-1/2 lg:px-8 items-center justify-center my-auto">
           <video
@@ -300,51 +292,46 @@ const { t } = useLang()
           </video>
         </div>
 
-        <div class="w-full lg:w-1/2 ">
+        <div class="w-full lg:w-1/2 leading-relaxing">
           <div class="container mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
               <div class="flex-column justify-center border border-gray-500 rounded-xl  font-light p-2 mb-2">
                 <div class="border-card-header flex flex-row h-fit w-full text-white justify-center border-b border-gray-500 text-xl font-light mb-2">
-                  Technical Expertise
+                  {{ t("Technical Expertise") }} 
                 </div>
                 <div class="lg:h-fit flex flex-row  justify-center">
                   <p class="p-5 text-white text-sm font-normal leading-4 font-roboto">
-                    A cyber consultant should have extensive technical knowledge and expertise in areas such as network security, system architecture, cloud security,
-                    encryption, and threat intelligence. They should have a good understanding of the latest trends and emerging technologies in the cybersecurity landscape.
+                    {{ t("Technical Expertise Text") }} 
                   </p>
                 </div>
               </div>
               <div class="flex-column justify-center  rounded-xl border border-gray-500 font-light p-2 mb-2">
                 <div class="border-card-header flex flex-row h-fit w-full text-white justify-center border-b border-gray-500 text-xl font-light mb-2">
-                  Analytical Skills:
+                  {{ t("Analytical Skills") }} 
                 </div>
                 <div class="lg:h-fit f flex flex-row  justify-center">
                   <p class="p-5 text-white text-sm font-normal leading-4 font-roboto">
-                    A cyber consultant should possess strong analytical skills to assess an organization's security posture, identify potential vulnerabilities, and recommend
-                    appropriate solutions. They should also be able to analyze threat data and develop effective response strategies
+                    {{ t("Analytical Skills Text") }}
                   </p>
                 </div>
               </div>
               <div class="flex-column justify-center  rounded-xl  border border-gray-500 font-light p-2">
                 <div class="border-card-header flex flex-row h-fit w-full text-white justify-center border-b border-gray-500 text-xl font-light mb-2">
-                  Communication Skills
+                  {{ t("Communication Skills:") }}
                 </div>
                 <div class="lg:h-fit f flex flex-row justify-center">
                   <p class="p-5 text-white text-sm font-normal leading-4 font-roboto">
-                    A cyber consultant should be able to communicate complex technical concepts to non-technical stakeholders in a clear and concise manner. They should
-                    also be able to listen actively to clients' concerns and needs and tailor their recommendations accordingly
+                    {{ t("Communication Skills Text") }}
                   </p>
                 </div>
               </div>
               <div class="flex-column justify-center rounded-xl border border-gray-500 font-light p-2">
                 <div class="border-card-header flex flex-row  w-full text-white justify-center  border-b border-gray-500 text-xl font-light mb-2">
-                  Business Acumen
+                  {{ t("Business Acumen") }}
                 </div>
                 <div class="lg:h-fit f flex flex-row justify-center">
                   <p class="p-5 text-white text-sm font-normal leading-4 font-roboto">
-                    A cyber consultant should have a good understanding of the business environment and industry regulations in which their clients operate. They should be
-                    able to align their cybersecurity recommendations with clients' business objectives and budget constraints. Additionally, they should have strong project management skills to
-                    deliver their recommendations within the agreed timeline and budget
+                    {{ t("Business Acumen Text") }}
                   </p>
                 </div>
               </div>

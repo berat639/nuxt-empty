@@ -70,8 +70,7 @@ const { t } = useLang()
             <input type="checkbox"
               class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
               id="exampleCheck87" checked>
-            <label class="form-check-label inline-block text-gray-800" for="exampleCheck87">Send me a copy of this
-              message</label>
+            <label class="form-check-label inline-block text-gray-800" for="exampleCheck87">{{ t("SendMeCopyOfMessage") }}</label>
           </div>
           <button type="submit" class="bg-red-700 hover:bg-red-400 text-white px-4 py-2 text-sm font-bold rounded absolute top-0 right-0 my-2 mr-2"> Subscribe </button>
         </form>
@@ -91,9 +90,9 @@ const { t } = useLang()
                 </div>
               </div>
               <div class="grow ml-6">
-                <p class="font-bold mb-1">Technical support</p>
-                <p class="text-gray-500">support@example.com</p>
-                <p class="text-gray-500">+1 234-567-89</p>
+                <p class="font-bold mb-1">{{ t("TechSupport") }}</p>
+                <p class="text-gray-500">{{ t("SupportEmail") }}</p>
+                <p class="text-gray-500">{{ t("Telefon") }}</p>
               </div>
             </div>
           </div>
@@ -110,9 +109,8 @@ const { t } = useLang()
                 </div>
               </div>
               <div class="grow ml-6">
-                <p class="font-bold mb-1">Sales questions</p>
-                <p class="text-gray-500">sales@example.com</p>
-                <p class="text-gray-500">+1 234-567-89</p>
+                <p class="font-bold mb-1">{{ t("Sales questions") }}</p> 
+                <p class="text-gray-500">{{ t("Telefon") }}</p>
               </div>
             </div>
           </div>
@@ -129,9 +127,9 @@ const { t } = useLang()
                 </div>
               </div>
               <div class="grow ml-6">
-                <p class="font-bold mb-1">Press</p>
-                <p class="text-gray-500">press@example.com</p>
-                <p class="text-gray-500">+1 234-567-89</p>
+                <p class="font-bold mb-1">{{ t("Press") }}</p>
+                <p class="text-gray-500">{{ t("PressEmail") }}</p>
+                <p class="text-gray-500">{{ t("Telefon") }}</p>
               </div>
             </div>
           </div>
@@ -148,9 +146,9 @@ const { t } = useLang()
                 </div>
               </div>
               <div class="grow ml-6">
-                <p class="font-bold mb-1">Bug report</p>
-                <p class="text-gray-500">bugs@example.com</p>
-                <p class="text-gray-500">+1 234-567-89</p>
+                <p class="font-bold mb-1">{{ t("Bug report") }}</p>
+                <p class="text-gray-500">{{ t("BugsEmail") }}</p>
+                <p class="text-gray-500">{{ t("Telefon") }}</p>
               </div>
             </div>
           </div>

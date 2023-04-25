@@ -25,8 +25,7 @@
   "OsintParagraph3":"The benefits of working with BAO for your OSINT needs is our ability to provide you with timely and accurate intelligence. We understand that time is of the essence when responding to potential threats, and we prioritize quick response times and effective communication throughout the OSINT process. Our team works closely with our clients to provide them with up-to-date information and insights, enabling them to make informed decisions and respond quickly and effectively to potential threats.",
   "OsintParagraph4":"At BAO, we take a comprehensive approach to OSINT, working closely with our clients to develop customized solutions that meet their specific needs and objectives. We understand that every business is unique, and we tailor our services to meet the specific requirements of each of our clients. Whether you're a small business owner or a large corporation, we have the expertise and resources to help you leverage the power of OSINT and protect your business from potential cyber threats.",
   "OsintParagraph5":"If you're in need of expert OSINT services, our team of experienced analysts is here to help. Contact us today to learn more about our services and how we can help you protect your business.",
-  
-  "SECTORS":"SECTORS",
+   
   "NationalSecurityParagraph0":"National Security:",
   "NationalSecurityParagraph1":"At BAO, we understand the importance of national security and the need for robust cyber defense systems. That's why we offer tailored solutions to help safeguard national security interests against cyber threats. Our team of experts work closely with national security agencies to assess and address potential risks, ensuring the protection of critical infrastructure, sensitive data, and other vital assets. From cyber intelligence to incident response, we have the expertise to help national security agencies stay ahead of the evolving threat landscape.",
   "PublicSectorParagraph0":"The Public Sector:",
@@ -102,7 +101,6 @@
   "Location":"Location",
   "Services":"Services",
   "Sectors":"Sectors",
-  "About Us":"About Us",
   "Copenhagen":"Copenhagen",
   "London":"London",
   "Istanbul":"Istanbul",
@@ -113,14 +111,38 @@
   "FrontPageServicesText":"Choose BAO as your trusted cybersecurity provider and protect your digital assets with confidence. We provide a range of services, including threat intelligence, vulnerability assessments, penetration testing, incident response, and more, all designed to keep you protected.",
   "FRONTPAGECOUNSELINGTEXT":" Stay one step ahead of cyber threats with tailored cybersecurity advice from BAO. Our expert team provides personalized solutions to protect your organization from  potential risks, ensuring your peace of mind.",
   "FrontPageINTELLIGENCEText":"  Protect your business with advanced cyber intelligence solutions from BAO. Our cutting-edge services provide real- time threat intelligence and enable you to proactively identify and mitigate potential attacks, giving you a competitive edge",
-  "FrontPageINVESTIGATIONText":"When cyber threats strike, trust BAO's team of professionals to investigate and identify the source of attacks. Our expert cyber investigation services help you to understand vulnerabilities and provide actionable solutions to prevent future attacks."
+  "FrontPageINVESTIGATIONText":"When cyber threats strike, trust BAO's team of professionals to investigate and identify the source of attacks. Our expert cyber investigation services help you to understand vulnerabilities and provide actionable solutions to prevent future attacks.",
+  "FrontPageOSINTText":" Stay informed and secure with BAO's advanced cyber Open Source Intelligence (OSINT) solutions. Our tailored services provide real-time threat intelligence from open sources, giving you a comprehensive understanding of potential attacks and enabling you to take proactive measures to protect your organization.",
+  "Why Work With Bao Frontpage":"Why work with BAO?",
+  "Why Work With Bao Frontpage Text1":"BAO har mange års erfaring med at levere cybersikkerhedsløsninger til en række forskellige brancher, og vi har udviklet en dyb forståelse af de unikke udfordringer og risici, der er forbundet med hver enkelt.",
+  "Experience":"Experience",
+  "Experience Text":"BAO has years of experience providing cybersecurity solutions to a range of industries, and we have developed a deep understanding of the unique challenges and risks associated with each one.",
+  "Expertise":"Expertise",
+  "Expertise Text":"Our team of cybersecurity experts is highly skilled and knowledgeable in the latest technologies, tools, and techniques needed to protect against cyber threats. We stay up-to-date with the latest industry trends and best practices to ensure our clients receive the best possible service",
+  "Customized Solutions":"Customized Solutions",
+  "Customized Solutions Text":"We understand that every client is unique, and we provide customized cybersecurity solutions tailored to the specific needs and requirements of each organization. We work closely with our clients to develop and implement a cybersecurity strategy that meets their needs and budget",
+  "24/7 Support":"24/7 Support",
+  "24/7 Support Text":"At BAO, we are committed to providing our clients with 24/7 support, ensuring that they have access to immediate assistance in case of a cybersecurity incident. We understand the importance of quick response times in mitigating potential damage from cyber attacks, and our team is always available to provide support and guidance when it's",
+
+  "Technical Expertise":"Technical Expertise:",
+  "Technical Expertise Text":" A cyber consultant should have extensive technical knowledge and expertise in areas such as network security, system architecture, cloud security, encryption, and threat intelligence. They should have a good understanding of the latest trends and emerging technologies in the cybersecurity landscape."  ,
+  "Analytical Skills":"Analytical Skills:",
+  "Analytical Skills Text":"A cyber consultant should possess strong analytical skills to assess an organization's security posture, identify potential vulnerabilities, and recommend appropriate solutions. They should also be able to analyze threat data and develop effective response strategies",
+  "Communication Skills:":"Communication Skills:",
+  "Communication Skills Text":"A cyber consultant should be able to communicate complex technical concepts to non-technical stakeholders in a clear and concise manner. They should also be able to listen actively to clients' concerns and needs and tailor their recommendations accordingly",
+  "Business Acumen":"Business Acumen",
+  "Business Acumen Text":"A cyber consultant should have a good understanding of the business environment and industry regulations in which their clients operate. They should be able to align their cybersecurity recommendations with clients' business objectives and budget constraints. Additionally, they should have strong project management skills to deliver their recommendations within the agreed timeline and budget",
+
+  "About Us":"About Us",
+  "SendMeCopyOfMessage":"Send me a copy of this message",
+  "TechSupport":"Technical support",
+ 
+  "Sales questions":"Sales questions", 
+  "Press":"Press", 
+  "Bug report":"Bug report"
 
 
 
-
-
-  
-    
   
     
   

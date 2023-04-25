@@ -21,7 +21,8 @@ export default defineNuxtConfig({
       ['defineStore', 'definePiniaStore'], // import { defineStore as definePiniaStore } from 'pinia'
     ],
   },
-  build: { 
+  build: {
+    transpile: ['@headlessui/vue'],
   },
   plugins: [
     {
@@ -49,7 +50,7 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'en',
-        file: 'en-US.json', 
+        file: 'en-US.json',
       },
       { code: 'dk', file: 'dk-DK.json' },
     ],
@@ -63,7 +64,8 @@ export default defineNuxtConfig({
       redirectOn: 'root', // recommended
     },
     vueI18n: {
-      legacy: false, 
+      legacy: false,
+      locale: 'dk',
       fallbackLocale: 'dk',
       availableLocales: ['en', 'dk'],
     },

@@ -101,7 +101,6 @@
   "Location":"Lokation",
   "Services":"Service",
   "Sectors":"Sektors",
-  "About Us":"Om os",
   "Copenhagen":"København",
   "London":"London",
   "Istanbul":"Istanbul",
@@ -113,9 +112,40 @@
   "FRONTPAGECOUNSELINGTEXT":" Hold dig et skridt foran cybertrusler med skræddersyet rådgivning om cybersikkerhed fra BAO. Vores eksperthold leverer personlige løsninger til at beskytte din organisation mod potentielle risici og sikrer dig ro i sindet.",
   "FrontPageINTELLIGENCEText":" Beskyt din virksomhed med avancerede cyberintelligensløsninger fra BAO. Vores banebrydende tjenester leverer trusselsinformation i realtid og gør det muligt for dig at identificere og afbøde potentielle angreb proaktivt, hvilket giver dig en konkurrencefordel",
   "FrontPageINVESTIGATIONText":"Når cybertrusler rammer, kan du stole på BAO's team af professionelle til at undersøge og identificere kilden til angrebene. Vores ekspertydelser inden for cyberundersøgelser hjælper dig med at forstå sårbarheder og leverer handlingsorienterede løsninger til at forhindre fremtidige angreb.",
-  "FrontPageOSINTText":"Hold dig informeret og sikker med BAO's avancerede cyber Open Source Intelligence (OSINT)-løsninger. Vores skræddersyede tjenester giver efterretninger om trusler i realtid fra åbne kilder, hvilket giver dig en omfattende forståelse af potentielle angreb og sætter dig i stand til at træffe proaktive foranstaltninger for at beskytte dine organisation."
+  "FrontPageOSINTText":"Hold dig informeret og sikker med BAO's avancerede cyber Open Source Intelligence (OSINT)-løsninger. Vores skræddersyede tjenester giver efterretninger om trusler i realtid fra åbne kilder, hvilket giver dig en omfattende forståelse af potentielle angreb og sætter dig i stand til at træffe proaktive foranstaltninger for at beskytte dine organisation.",
+
+  "Why Work With Bao Frontpage":"Hvorfor samarbejde med BAO?",
+  "Why Work With Bao Frontpage Text1":"BAO har mange års erfaring med at levere cybersikkerhedsløsninger til en række forskellige brancher, og vi har udviklet en dyb forståelse af de unikke udfordringer og risici, der er forbundet med hver enkelt.",
+  "Experience":"Erfaring",
+  "Experience Text":"BAO har mange års erfaring med at levere cybersikkerhedsløsninger til en række forskellige brancher, og vi har udviklet en dyb forståelse af de unikke udfordringer og risici, der er forbundet med hver enkelt branche.",
+  "Expertise":"Ekspertise",
+  "Expertise Text":"Vores team af cybersikkerhedseksperter er højt kvalificeret og har stor viden om de nyeste teknologier, værktøjer og teknikker, der er nødvendige for at beskytte mod cybertrusler. Vi holder os ajour med de nyeste tendenser og bedste praksis i branchen for at sikre, at vores kunder får den bedst mulige service",
+  "Customized Solutions":"Tilpassede løsninger",
+  "Customized Solutions Text":"Vi forstår, at hver enkelt kunde er unik, og vi leverer tilpassede cybersikkerhedsløsninger, der er skræddersyet til de specifikke behov og krav i hver enkelt organisation. Vi arbejder tæt sammen med vores kunder for at udvikle og implementere en cybersikkerhedsstrategi, der opfylder deres behov og budget",
+  "24/7 Support":"24/7 Support",
+  "24/7 Support Text":"Hos BAO er vi forpligtet til at give vores kunder 24/7 support, så de har adgang til øjeblikkelig hjælp i tilfælde af en cybersikkerhedshændelse. Vi forstår vigtigheden af hurtige reaktionstider for at mindske potentielle skader fra cyberangreb, og vores team er altid til rådighed for at yde støtte og vejledning, når det er",
 
 
+  "Technical Expertise":"Teknisk ekspertise",
+  "Technical Expertise Text":"En cyberkonsulent bør have omfattende teknisk viden og ekspertise inden for områder som netværkssikkerhed, systemarkitektur, cloudsikkerhed, kryptering og trusselsinformation. De bør have en god forståelse af de seneste tendenser og nye teknologier inden for cybersikkerhed."  ,
+  "Analytical Skills":"Analytiske færdigheder:",
+  "Analytical Skills Text":"En cyberkonsulent skal have stærke analytiske evner til at vurdere en organisations sikkerhedstilstand, identificere potentielle sårbarheder og anbefale passende løsninger. De skal også være i stand til at analysere trusselsdata og udvikle effektive reaktionsstrategier.",
+  "Communication Skills:":"Kommunikationsevner:",
+  "Communication Skills Text":"En cyberkonsulent skal kunne formidle komplekse tekniske koncepter til ikke-tekniske interessenter på en klar og præcis måde. De skal også være i stand til at lytte aktivt til kundernes bekymringer og behov og skræddersy deres anbefalinger i overensstemmelse hermed.",
+  "Business Acumen":"Erhvervsmæssig indsigt",
+  "Business Acumen Text":"En cyberkonsulent bør have en god forståelse for det forretningsmiljø og de branchebestemmelser, som deres kunder opererer i. De bør være i stand til at tilpasse deres anbefalinger om cybersikkerhed til kundernes forretningsmål og budgetbegrænsninger. Desuden bør de have stærke projektledelsesfærdigheder til at levere deres anbefalinger inden for den aftalte tidsplan og det aftalte budget.",
+  
+
+  "About Us":"Om os",
+  "SendMeCopyOfMessage":"Send mig en kopi af denne meddelelse",
+  "TechSupport":"Teknisk support",
+ 
+  "Sales questions":"Spørgsmål om salg",
+  
+  "Press":"Pressen",
+  
+  "Bug report":"Bugraport"
+ 
   
  
       
