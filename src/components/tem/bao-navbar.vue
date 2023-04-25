@@ -20,7 +20,7 @@ const { t } = useLang()
     <template #logo>
       <NuxtLink :to="localePath('/')">
         <h4 class="text-3xl font-bold text-white">
-          bawareof / <span class="text-red-700">bao</span>
+          bawareof 
         </h4>
       </NuxtLink>
     </template>

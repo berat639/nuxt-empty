@@ -5,6 +5,11 @@ import VideoBackground from 'vue-responsive-video-background-player'
 const route = useRoute()
 const isHomePage = computed(() => route.path === '/')
 
+const modalStore= useModalStore()
+const showModal= (e)=>{
+e.preventDefault();
+modalStore.showModal();
+}
 const heroContent = computed(() => {
   return {
     'lg:w-3/4 xl:w-2/4 relative z-10 h-100 lg:mt-16 mx-auto': isHomePage.value,
@@ -37,7 +42,7 @@ const heroContent = computed(() => {
               unparalleled security solutions that
               protect against ever-evolving threats.
             </p>
-            <a v-if="isHomePage" href="#" class="px-4 py-2 bg-red-700 text-white rounded-2xl mt-5 inline-block font-semibold">Contact Us</a>
+            <a v-if="isHomePage"  @click="showModal" href="#" class="px-4 py-2 bg-red-700 text-white rounded-2xl mt-5 inline-block font-semibold">Contact Us</a>
           </div>
         </div>
       </div>

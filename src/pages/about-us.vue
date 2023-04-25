@@ -72,7 +72,7 @@ const { t } = useLang()
               id="exampleCheck87" checked>
             <label class="form-check-label inline-block text-gray-800" for="exampleCheck87">{{ t("SendMeCopyOfMessage") }}</label>
           </div>
-          <button type="submit" class="bg-red-700 hover:bg-red-400 text-white px-4 py-2 text-sm font-bold rounded absolute top-0 right-0 my-2 mr-2"> Subscribe </button>
+         
         </form>
       </div>
       <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">

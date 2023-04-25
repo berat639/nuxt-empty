@@ -25,7 +25,7 @@ const backgroundStyles = (img?: string) => {
             </div>
             <div class="mt-16 flex justify-between ">
                 <span class="p-3 pl-0 font-bold">BAO</span>
-                <NuxtLink :to="localePath('')">
+                <NuxtLink :to="localePath('{{props.url}}')">
                     <span
                         class="p-3  border-2 border-gray-200 rounded-md text-base hover:bg-gray-200 hover:border-gray-200 cursor-pointer hover:text-black leading-relaxed">
                         {{ t("Read") }}

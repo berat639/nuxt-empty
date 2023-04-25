@@ -5,7 +5,7 @@ const isHomePage = computed(() => route.path === '/')
 const modalStore= useModalStore()
 const showModal= (e:any)=>{
 e.preventDefault();
-modalStore.showModal("Test","text");
+modalStore.showModal();
 }
 const heroContent = computed(() => {
   return {
@@ -65,7 +65,7 @@ const heroContent = computed(() => {
           </li>
           <li>
             <a href="#" @click="showModal" 
-            class="px-4 py-2 bg-red-700 text-white rounded-2xl inline-block font-semibold leading-relaxed">
+            class="px-4 py-2 ml-2 bg-red-700 text-white rounded-2xl inline-block font-semibold leading-relaxed">
             {{ t("ContactUs") }}
           </a>
           </li>
@@ -102,7 +102,7 @@ const heroContent = computed(() => {
                {{ t("TextToWeProvide") }}
               
             </p>
-            <a v-if="isHomePage" href="#" class="px-4 py-2 bg-red-700 text-white rounded-2xl mt-5 inline-block font-semibold leading-relaxed"> {{ t("ContactUs") }}</a>
+            <a v-if="isHomePage"   @click="showModal"  class="px-4 py-2 bg-red-700 text-white rounded-2xl mt-5 inline-block font-semibold leading-relaxed"> {{ t("ContactUs") }}</a>
           </div>
         </div>
       </div>
