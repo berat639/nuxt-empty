@@ -2,8 +2,7 @@ import presetIcons from '@unocss/preset-icons'
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
-  srcDir: 'src',
-  css: ['vue3-dropdown-navbar/preflight.css'],
+  srcDir: 'src', 
   modules: [
     '@vueuse/nuxt',
     '@nuxtjs/tailwindcss',
