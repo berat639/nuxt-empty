@@ -52,7 +52,6 @@
   "KnowledgeParagraph0":"Viden",
   "KnowledgeParagraph1":"Hos BAO mener vi, at viden er magt, når det gælder cybersikkerhed. Derfor tilbyder vi ikke kun banebrydende løsninger til beskyttelse af vores kunders følsomme oplysninger, men tilbyder også undervisning, foredrag og kurser i cybersikkerhed. Vores team af eksperter har mange års erfaring inden for området og brænder for at dele deres viden og ekspertise med andre. Vi tilbyder en række uddannelsesmuligheder, lige fra introduktionskurser for begyndere til avanceret uddannelse for erfarne fagfolk. Vores kurser dækker en bred vifte af emner, herunder netværkssikkerhed, etisk hacking, databeskyttelse og meget mere. Vi skræddersyer vores kurser til vores kunders behov, uanset om det er enkeltpersoner, der ønsker at udvide deres viden, eller organisationer, der ønsker at opkvalificere deres medarbejdere. Vores undervisningstilgang er praktisk og praktisk, hvilket sikrer, at vores kursister får de færdigheder og den selvtillid, de har brug for til at beskytte sig selv og deres organisationer mod cybertrusler. Vores team tilbyder også foredrag og samtaler om nye emner inden for cybersikkerhed, så vores kunder og det bredere samfund holdes informeret og opdateret om de nyeste tendenser og trusler.",
   "KnowledgeParagraph2":"Uanset om du er en enkeltperson, der ønsker at opbygge dine færdigheder, eller en organisation, der ønsker at opkvalificere din arbejdsstyrke, kan BAO's cybersikkerhedskurser og uddannelsestilbud hjælpe dig. Kontakt os i dag for at få mere at vide om, hvordan vi kan hjælpe dig med at få den cyberviden, du har brug for for at få succes.",
-
   "HEADER":"HEADER",
   "WeProvide":"Vi giver sikkerhed til det digitale Danmark",
   "LeftTop":"Tekst her",
@@ -60,11 +59,8 @@
   "RightTop1":"Hvad skal vi have her ?",
   "ContactUs":"Kontakt os",
   "TextToWeProvide":"Som et globalt cybersikkerhedsfirma har vi gjort det til vores mission at levere uovertrufne sikkerhedsløsninger, der beskytter mod trusler i konstant udvikling.",
-  
   "Carousale":"Carousale",
   "Read":"Læs mere",
-
-  
   "HEADING":"HEADING",
   "SERVICES":"SERVICE",
   "COUNSELING":"RÅDGIVNING",
@@ -93,7 +89,6 @@
   "NEWS":"NYHEDER",
   "CAREERS":"KARRIERE",
   "ABOUT US":"OM OS",
- 
   "FOOTER":"FOOTER",
   "FooterText":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.",
   "SubscribeText":"Tilmeld dig vores nyhedsbrev",
@@ -113,7 +108,6 @@
   "FrontPageINTELLIGENCEText":" Beskyt din virksomhed med avancerede cyberintelligensløsninger fra BAO. Vores banebrydende tjenester leverer trusselsinformation i realtid og gør det muligt for dig at identificere og afbøde potentielle angreb proaktivt, hvilket giver dig en konkurrencefordel",
   "FrontPageINVESTIGATIONText":"Når cybertrusler rammer, kan du stole på BAO's team af professionelle til at undersøge og identificere kilden til angrebene. Vores ekspertydelser inden for cyberundersøgelser hjælper dig med at forstå sårbarheder og leverer handlingsorienterede løsninger til at forhindre fremtidige angreb.",
   "FrontPageOSINTText":"Hold dig informeret og sikker med BAO's avancerede cyber Open Source Intelligence (OSINT)-løsninger. Vores skræddersyede tjenester giver efterretninger om trusler i realtid fra åbne kilder, hvilket giver dig en omfattende forståelse af potentielle angreb og sætter dig i stand til at træffe proaktive foranstaltninger for at beskytte dine organisation.",
-
   "Why Work With Bao Frontpage":"Hvorfor samarbejde med BAO?",
   "Why Work With Bao Frontpage Text1":"BAO har mange års erfaring med at levere cybersikkerhedsløsninger til en række forskellige brancher, og vi har udviklet en dyb forståelse af de unikke udfordringer og risici, der er forbundet med hver enkelt.",
   "Experience":"Erfaring",
@@ -124,8 +118,6 @@
   "Customized Solutions Text":"Vi forstår, at hver enkelt kunde er unik, og vi leverer tilpassede cybersikkerhedsløsninger, der er skræddersyet til de specifikke behov og krav i hver enkelt organisation. Vi arbejder tæt sammen med vores kunder for at udvikle og implementere en cybersikkerhedsstrategi, der opfylder deres behov og budget",
   "24/7 Support":"24/7 Support",
   "24/7 Support Text":"Hos BAO er vi forpligtet til at give vores kunder 24/7 support, så de har adgang til øjeblikkelig hjælp i tilfælde af en cybersikkerhedshændelse. Vi forstår vigtigheden af hurtige reaktionstider for at mindske potentielle skader fra cyberangreb, og vores team er altid til rådighed for at yde støtte og vejledning, når det er",
-
-
   "Technical Expertise":"Teknisk ekspertise",
   "Technical Expertise Text":"En cyberkonsulent bør have omfattende teknisk viden og ekspertise inden for områder som netværkssikkerhed, systemarkitektur, cloudsikkerhed, kryptering og trusselsinformation. De bør have en god forståelse af de seneste tendenser og nye teknologier inden for cybersikkerhed."  ,
   "Analytical Skills":"Analytiske færdigheder:",
@@ -134,26 +126,12 @@
   "Communication Skills Text":"En cyberkonsulent skal kunne formidle komplekse tekniske koncepter til ikke-tekniske interessenter på en klar og præcis måde. De skal også være i stand til at lytte aktivt til kundernes bekymringer og behov og skræddersy deres anbefalinger i overensstemmelse hermed.",
   "Business Acumen":"Erhvervsmæssig indsigt",
   "Business Acumen Text":"En cyberkonsulent bør have en god forståelse for det forretningsmiljø og de branchebestemmelser, som deres kunder opererer i. De bør være i stand til at tilpasse deres anbefalinger om cybersikkerhed til kundernes forretningsmål og budgetbegrænsninger. Desuden bør de have stærke projektledelsesfærdigheder til at levere deres anbefalinger inden for den aftalte tidsplan og det aftalte budget.",
-  
-
-  "About Us":"Om os",
+   "About Us":"Om os",
   "SendMeCopyOfMessage":"Send mig en kopi af denne meddelelse",
   "TechSupport":"Teknisk support",
- 
   "Sales questions":"Spørgsmål om salg",
-  
   "Press":"Pressen",
-  
-  "Bug report":"Bugraport"
- 
-  
- 
-      
-
-  
- 
-
-
-
-
+  "Bug report":"Bugraport",
+  "LectureParagraph0":"Foredrag",
+  "LectureParagraph1":"Hos BAO forstår vi, at cybersikkerhed er et område i konstant udvikling, og at det er vigtigt at holde sig ajour med de nyeste trusler og sikkerhedsforanstaltninger for at holde din virksomhed sikker. Derfor tilbyder vi sikkerhedsforedrag - en værdifuld ressource, der kan hjælpe dig og dit team med at holde sig informeret og forberedt. Vores sikkerhedsforedrag dækker en række emner, fra grundlæggende sikkerhedsprincipper til avancerede teknikker til detektion af trusler og reaktionsteknikker. Vores ekspertforedragsholdere vil give praktiske råd og handlingsanvisninger, som du kan anvende i din virksomhed med det samme. Uanset om du ønsker at forbedre dit teams bevidsthed om almindelige cybertrusler eller ønsker at lære, hvordan du skaber en mere sikker it-infrastruktur, kan vores sikkerhedsforedrag hjælpe dig. Vi kan tilpasse vores indhold til at opfylde din virksomheds unikke behov og yde løbende support for at sikre, at du forbliver beskyttet i det stadigt skiftende cybersikkerhedslandskab. Invester i dit teams uddannelse, og tag proaktive skridt til at beskytte din virksomhed med BAO's sikkerhedsforedrag. Kontakt os i dag for at få mere at vide om, hvordan vores foredrag kan gavne din organisation."
 }

@@ -129,7 +129,7 @@ const { t } = useLang()
         </NuxtLink>
       </TheDropDownItem>
       <TheDropDownItem > 
-        <NuxtLink :to="localePath('/about-us')">
+        <NuxtLink :to="localePath('/knowledge/lecture')">
           {{ t("LECTURE") }}
         </NuxtLink>
       </TheDropDownItem>
