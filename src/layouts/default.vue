@@ -1,8 +1,8 @@
 <template>
   <main class="w-full">
-    <BaoHeader />
+    <Header />
     <slot />
-    <BaoFooter />
-    <TemBaoModalForm />
+    <Footer />
+    <TemplateModalForm/>
   </main>
 </template>

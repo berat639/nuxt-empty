@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { t } = useLang()
 const route = useRoute()
-const isHomePage = computed(() => route.path === '/')
+const isHomePage = computed(() => route.path === '/' || route.path === '/en')
 const modalStore= useModalStore()
 const showModal= (e:any)=>{
 e.preventDefault();
@@ -9,7 +9,7 @@ modalStore.showModal();
 }
 const heroContent = computed(() => {
   return {
-    'lg:w-3/4 xl:w-2/4 relative z-10 h-100 lg:mt-16 mx-auto': isHomePage.value,
+    // 'lg:w-3/4 xl:w-2/4 relative z-10 h-100 lg:mt-16 mx-auto': isHomePage.value,
     'w-full relative z-10 h-100 lg:mt-64': !isHomePage.value,
   }
 })
@@ -58,15 +58,15 @@ const heroContent = computed(() => {
         <ul class="flex justify-end text-white">
           <li>
             <a href="#" @click="showModal" 
-            class="px-4 py-2 bg-red-700 text-white rounded-2xl inline-block font-semibold leading-relaxed">
-            {{ t("RightTop1") }}
+            class="px-4 py-2 bg-blue-700 text-white rounded-2xl inline-block font-semibold leading-relaxed">
+            left
           </a>
 
           </li>
           <li>
             <a href="#" @click="showModal" 
-            class="px-4 py-2 ml-2 bg-red-700 text-white rounded-2xl inline-block font-semibold leading-relaxed">
-            {{ t("ContactUs") }}
+            class="px-4 py-2 ml-2 bg-blue-700 text-white rounded-2xl inline-block font-semibold leading-relaxed">
+         right
           </a>
           </li>
         </ul>
@@ -74,18 +74,18 @@ const heroContent = computed(() => {
     </div>
 
     <div class="flex flex-wrap items-center justify-between py-6">
-      <TemBaoNavbar />
+      <TemplateNavbar />
     </div>
   </header>
- <TemBaoBgVideo v-if="isHomePage" />
+ 
 
-  <div v-else class="bg-gray-100">
+  <div  class="bg-gray-100">
     <section
       class="cover bg-blue-teal-gradient relative  px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden flex items-center" :class="{ 'min-h-screen': isHomePage, 'py-48': isHomePage }"
     >
       <div class="h-full absolute top-0 left-0 right-0 z-0">
         <img
-          src="https://trello.com/1/cards/6419d45c1db3bb42879b9595/attachments/641b7a85a9a9c692b8b7392a/previews/641b7a85a9a9c692b8b73979/download/334727259_543079174629539_7373861307719555361_n.jpg"
+          src="https://img.freepik.com/free-photo/blue-abstract-gradient-wave-wallpaper_53876-108364.jpg?w=1060&t=st=1693841320~exp=1693841920~hmac=e19bfd79dbf924ddf204662277402177b9035437baa76ef6afb4808890bde94d"
           alt="" class="w-full h-full object-cover opacity-60"
         >
         
@@ -94,15 +94,15 @@ const heroContent = computed(() => {
       <div :class="heroContent">
         <div :class="{ 'mb-12': !isHomePage }">
           <h1 class="text-white text-2xl md:text-5xl xl:text-4xl font-bold leading-tight text-center leading-relaxed"  :class="{ 'text-center': !isHomePage }">
-            {{ t("WeProvide") }}
+            {{ t("hello") }}
             
           </h1>
           <div class="text-white text-xl md:text-2xl leading-snug mt-4 text-center leading-relaxed">
             <p>
-               {{ t("TextToWeProvide") }}
+             
               
             </p>
-            <a v-if="isHomePage"   @click="showModal"  class="px-4 py-2 bg-red-700 text-white rounded-2xl mt-5 inline-block font-semibold leading-relaxed"> {{ t("ContactUs") }}</a>
+         
           </div>
         </div>
       </div>

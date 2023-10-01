@@ -7,7 +7,7 @@ const { t } = useLang()
       <div class="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
         <NuxtLink to="/">
           <h3 class="text-2xl font-bold">
-            bawareof / <span class="text-red-700">bao</span>
+          lOGO
           </h3>
         </NuxtLink>
         <p class="text-gray-600 leading-relaxed">
@@ -38,39 +38,39 @@ const { t } = useLang()
 
       <div class="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4 leading-relaxed">
         <h5 class="uppercase tracking-wider font-semibold text-gray-500">
-          BAO
+          LİNK
         </h5>
         <ul class="mt-4">
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Location") }} </a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">Link </a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Services") }}</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">Link</a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Location") }}</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">Link</a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("About Us")}}</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">Link</a>
           </li>
         </ul>
       </div>
       <div class="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
         <h5 class="uppercase tracking-wider font-semibold text-gray-500">
-          {{ t("Location") }}
+          İLETİŞİM
         </h5>
         <ul class="mt-4">
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Copenhagen")}}</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">Link</a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("London")}}</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">Link</a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Istanbul")}}</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">Link</a>
           </li>
           <li class="mt-2">
-            <a href="#" title="" class="opacity-75 hover:opacity-100">{{ t("Berlin")}}</a>
+            <a href="#" title="" class="opacity-75 hover:opacity-100">Link</a>
           </li>
         </ul>
       </div>
@@ -90,7 +90,7 @@ const { t } = useLang()
                 </svg>
               </span>
               <span class="ml-3">
-                {{ t("Adress")}}
+               Link
               </span>
             </a>
           </li>
@@ -107,7 +107,7 @@ const { t } = useLang()
                   <path d="M13 7L11 7 11 13 17 13 17 11 13 11z" /></svg>
               </span>
               <span class="ml-3">
-                {{ t("opening hours")}}
+                Link
               </span>
             </a>
           </li>
@@ -124,7 +124,7 @@ const { t } = useLang()
                 </svg>
               </span>
               <span class="ml-3">
-                {{ t("Telefon")}}
+              Link
               </span>
             </a>
           </li>
@@ -141,7 +141,7 @@ const { t } = useLang()
                 </svg>
               </span>
               <span class="ml-3">
-                eg@example.com
+               Link
               </span>
             </a>
           </li>
